@@ -1,7 +1,49 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T14:14:29.474Z",
+  "generated_at": "2026-10-07T15:24:27.566Z",
   "sources": [
+    {
+      "id": "fsvps-glavnoe",
+      "name": "Россельхознадзор: главное",
+      "enabled": 1,
+      "interval_minutes": 180,
+      "last_run_at": "2026-10-07 15:18:28",
+      "last_success_at": null,
+      "last_item_at": null,
+      "last_status": "error",
+      "last_error": "fetchText is not defined",
+      "consecutive_failures": 1,
+      "entries": 0,
+      "stale": true
+    },
+    {
+      "id": "fsvps-is",
+      "name": "Россельхознадзор: информационные системы",
+      "enabled": 1,
+      "interval_minutes": 360,
+      "last_run_at": "2026-10-07 15:18:29",
+      "last_success_at": null,
+      "last_item_at": null,
+      "last_status": "error",
+      "last_error": "fetchText is not defined",
+      "consecutive_failures": 1,
+      "entries": 0,
+      "stale": true
+    },
+    {
+      "id": "fsvps-regional",
+      "name": "Россельхознадзор: региональные новости",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-07 15:18:29",
+      "last_success_at": null,
+      "last_item_at": null,
+      "last_status": "error",
+      "last_error": "fetchText is not defined",
+      "consecutive_failures": 1,
+      "entries": 0,
+      "stale": true
+    },
     {
       "id": "pubmed-bovine-mastitis",
       "name": "PubMed: bovine mastitis",
