@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T18:00:50.907Z",
+  "generated_at": "2026-10-07T20:00:47.998Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -35,13 +35,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 15:34:23",
-      "last_success_at": "2026-10-07 15:34:23",
-      "last_item_at": "2026-10-07 15:34:23",
+      "last_run_at": "2026-10-07 20:00:47",
+      "last_success_at": "2026-10-07 20:00:47",
+      "last_item_at": "2026-10-07 20:00:47",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 11,
+      "entries": 12,
       "stale": false
     },
     {
@@ -49,13 +49,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 15:34:22",
-      "last_success_at": "2026-10-07 15:34:22",
-      "last_item_at": "2026-10-07 15:34:22",
+      "last_run_at": "2026-10-07 20:00:46",
+      "last_success_at": "2026-10-07 20:00:46",
+      "last_item_at": "2026-10-07 20:00:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 10,
+      "entries": 18,
       "stale": false
     },
     {
@@ -161,13 +161,13 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 14:09:56",
-      "last_success_at": "2026-10-07 14:09:56",
-      "last_item_at": "2026-10-07 14:09:56",
+      "last_run_at": "2026-10-07 20:00:45",
+      "last_success_at": "2026-10-07 20:00:45",
+      "last_item_at": "2026-10-07 20:00:45",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 12,
+      "entries": 14,
       "stale": false
     }
   ]
