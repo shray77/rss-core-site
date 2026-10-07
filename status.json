@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T20:00:47.998Z",
+  "generated_at": "2026-10-07T22:00:41.492Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 15:34:24",
-      "last_success_at": "2026-10-07 15:34:24",
-      "last_item_at": "2026-10-07 15:34:24",
+      "last_run_at": "2026-10-07 22:00:40",
+      "last_success_at": "2026-10-07 22:00:40",
+      "last_item_at": "2026-10-07 22:00:40",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 12,
+      "entries": 21,
       "stale": false
     },
     {
@@ -21,13 +21,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 15:34:25",
-      "last_success_at": "2026-10-07 15:34:25",
-      "last_item_at": "2026-10-07 15:34:25",
+      "last_run_at": "2026-10-07 22:00:41",
+      "last_success_at": "2026-10-07 22:00:41",
+      "last_item_at": "2026-10-07 22:00:41",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 12,
+      "entries": 24,
       "stale": false
     },
     {
@@ -63,13 +63,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 15:34:23",
-      "last_success_at": "2026-10-07 15:34:23",
-      "last_item_at": "2026-10-07 15:34:23",
+      "last_run_at": "2026-10-07 22:00:39",
+      "last_success_at": "2026-10-07 22:00:39",
+      "last_item_at": "2026-10-07 22:00:39",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 11,
+      "entries": 13,
       "stale": false
     },
     {
