@@ -149,7 +149,7 @@ async function refresh() {
         </div>
         <div class="row2">
           <span>статус: <b>${label(s)}${fails}</b></span>
-          <span>интервал: <b>${s.interval_minutes} мин</b></span>
+          <span>интервал: <b>${s.interval_minutes >= 60 ? (s.interval_minutes / 60) + " ч" : s.interval_minutes + " мин"}</b></span>
           <span>успех: <b>${timeAgo(s.last_success_at)}</b></span>
           <span>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
         </div>
