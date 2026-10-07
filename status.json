@@ -1,5 +1,48 @@
 {
   "service": "rss-core",
-  "generated_at": "1970-01-01T00:00:00Z",
-  "sources": []
+  "generated_at": "2026-10-07T14:13:31.763Z",
+  "sources": [
+    {
+      "id": "pubmed-bovine-mastitis",
+      "name": "PubMed: bovine mastitis",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-07 14:09:58",
+      "last_success_at": "2026-10-07 14:09:58",
+      "last_item_at": "1.0",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 8,
+      "stale": true
+    },
+    {
+      "id": "pubmed-canine-parvovirus",
+      "name": "PubMed: canine parvovirus",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-07 14:09:57",
+      "last_success_at": "2026-10-07 14:09:57",
+      "last_item_at": "1.0",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 8,
+      "stale": true
+    },
+    {
+      "id": "pubmed-vet-infectious",
+      "name": "PubMed: veterinary infectious diseases",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-07 14:09:56",
+      "last_success_at": "2026-10-07 14:09:56",
+      "last_item_at": "1.0",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 12,
+      "stale": true
+    }
+  ]
 }
