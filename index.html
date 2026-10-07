@@ -3,37 +3,165 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>rss-core — статус источников</title>
+<title>rss-core — статус конвейера приёма данных</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛰</text></svg>">
 <style>
-  :root { color-scheme: dark; }
-  body { background: #0d1117; color: #e6edf3; font: 15px/1.5 system-ui, sans-serif; margin: 0; padding: 24px; }
-  h1 { font-size: 20px; } h1 span { color: #8b949e; font-weight: normal; font-size: 14px; }
-  table { border-collapse: collapse; width: 100%; max-width: 1100px; }
-  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #21262d; }
-  th { color: #8b949e; font-weight: 600; font-size: 13px; }
-  .ok { color: #3fb950; } .err { color: #f85149; } .stale { color: #d29922; }
-  #meta { color: #8b949e; font-size: 13px; margin-bottom: 16px; }
-  code { color: #79c0ff; }
+  :root {
+    color-scheme: dark;
+    --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
+    --text: #e8ecf3; --muted: #93a0b4; --faint: #5d6a7d;
+    --accent: #34d399; --accent-dim: rgba(52,211,153,.12);
+    --blue: #7dd3fc; --warn: #fbbf24; --err: #f87171;
+    --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
+
+  header.top {
+    background: linear-gradient(180deg, rgba(52,211,153,.06), transparent 70%);
+    border-bottom: 1px solid var(--border); padding: 28px 0 22px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 14px; background: var(--accent-dim);
+    border: 1px solid rgba(52,211,153,.35); display: grid; place-items: center; font-size: 26px;
+  }
+  h1 { font-size: 24px; margin: 0; letter-spacing: -.02em; }
+  .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+  .live { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; font-family: var(--mono); }
+  button.refresh {
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+    border-radius: 8px; padding: 6px 12px; font: 12.5px var(--mono); cursor: pointer;
+  }
+  button.refresh:hover { color: var(--text); border-color: #2c3543; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 24px 0 20px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
+  .stat span { color: var(--muted); font-size: 12.5px; }
+
+  .src {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 16px 18px; margin-bottom: 12px;
+  }
+  .row1 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--faint); flex: none; }
+  .dot.ok { background: var(--accent); box-shadow: 0 0 8px rgba(52,211,153,.7); }
+  .dot.stale { background: var(--warn); }
+  .dot.err { background: var(--err); box-shadow: 0 0 8px rgba(248,113,113,.6); }
+  .src b { font-size: 15.5px; font-weight: 650; }
+  .sid { font: 11.5px var(--mono); color: var(--blue); background: rgba(125,211,252,.08); border: 1px solid rgba(125,211,252,.18); padding: 2px 9px; border-radius: 999px; }
+  .count { margin-left: auto; font: 12.5px var(--mono); color: var(--muted); }
+  .count b { font-size: 12.5px; color: var(--text); }
+  .row2 { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; color: var(--faint); font-size: 12.5px; font-family: var(--mono); }
+  .row2 span b { color: var(--muted); font-weight: 500; }
+  .errbox {
+    margin-top: 10px; padding: 8px 12px; border-radius: 8px; font: 12.5px var(--mono);
+    background: rgba(248,113,113,.07); border: 1px solid rgba(248,113,113,.25); color: var(--err);
+  }
+
+  .legend { margin: 22px 0 0; padding: 14px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+  .legend h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .legend div { display: flex; gap: 8px; align-items: center; font-size: 13.5px; color: var(--muted); margin: 5px 0; }
+
+  footer { border-top: 1px solid var(--border); margin-top: 36px; padding: 18px 0 30px; }
+  .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
+  .foot a { color: var(--muted); text-decoration: none; }
+  .foot a:hover { color: var(--accent); }
 </style>
 </head>
 <body>
-<h1>rss-core — статус источников <span>(обновляется воркером по крону каждые 2 часа)</span></h1>
-<div id="meta">загрузка…</div>
-<table id="tbl">
-  <thead><tr><th>источник</th><th>статус</th><th>записей</th><th>последний успех</th><th>последняя новая запись</th><th>ошибка</th></tr></thead>
-  <tbody></tbody>
-</table>
+<header class="top">
+  <div class="wrap topbar">
+    <div class="brand">
+      <div class="logo">🛰️</div>
+      <div>
+        <h1>rss-core</h1>
+        <p>Конвейер приёма данных: источники → нормализация → D1 → продуктовые воркеры.</p>
+      </div>
+    </div>
+    <div class="live">
+      <span id="meta">загрузка…</span>
+      <button class="refresh" onclick="refresh()">обновить</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats" id="stats"></section>
+  <section id="sources"></section>
+  <section class="legend">
+    <h3>Легенда</h3>
+    <div><span class="dot ok"></span>ok — источник опрашивается, свежие данные приходят по своему интервалу</div>
+    <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48 ч или 2 интервала)</div>
+    <div><span class="dot err"></span>ошибка — последний прогон упал; после 3 падений подряд воркер шлёт алерт</div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>данные: <a href="./status.json">status.json</a>, воркер публикует после каждого прогона</span>
+    <a href="https://shray77.github.io/vetdigest-site/">дашборд VetDigest →</a>
+    <a href="https://github.com/shray77/rss-core">репозиторий</a>
+  </div>
+</footer>
+
 <script>
-const fmt = (s) => s ? new Date(s.replace(' ', 'T') + 'Z').toLocaleString('ru-RU') : '—';
-fetch('./status.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
-  document.getElementById('meta').textContent = 'обновлено: ' + new Date(j.generated_at).toLocaleString('ru-RU');
-  document.querySelector('#tbl tbody').innerHTML = j.sources.map(s => {
-    const cls = s.last_status === 'ok' ? (s.stale ? 'stale' : 'ok') : 'err';
-    const label = s.last_status === 'ok' ? (s.stale ? 'нет данных' : 'ok') : 'ошибка';
-    return `<tr><td>${s.name}</td><td class="${cls}">${label}${s.consecutive_failures > 0 ? ` (${s.consecutive_failures})` : ''}</td>` +
-      `<td>${s.entries}</td><td>${fmt(s.last_success_at)}</td><td>${fmt(s.last_item_at)}</td><td><code>${(s.last_error || '').slice(0, 80)}</code></td></tr>`;
-  }).join('');
-}).catch(e => { document.getElementById('meta').textContent = 'не удалось загрузить status.json: ' + e; });
+const timeAgo = (s) => {
+  if (!s) return "—";
+  const ms = Date.now() - new Date(s.replace(" ", "T") + (s.includes("T") ? "" : "Z")).getTime();
+  if (isNaN(ms)) return "—";
+  const m = Math.floor(ms / 60000);
+  if (m < 1) return "только что";
+  if (m < 60) return m + " мин назад";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + " ч назад";
+  return Math.floor(h / 24) + " дн назад";
+};
+const cls = (s) => s.last_status !== "ok" ? "err" : (s.stale ? "stale" : "ok");
+const label = (s) => s.last_status !== "ok" ? "ошибка" : (s.stale ? "нет данных" : "ok");
+
+async function refresh() {
+  try {
+    const j = await (await fetch("./status.json", { cache: "no-store" })).json();
+    const srcs = j.sources || [];
+    const err = srcs.filter(s => s.last_status !== "ok").length;
+    const stale = srcs.filter(s => s.last_status === "ok" && s.stale).length;
+    const total = srcs.reduce((n, s) => n + (s.entries || 0), 0);
+
+    document.getElementById("meta").textContent = "обновлено " + timeAgo(j.generated_at);
+    document.getElementById("stats").innerHTML =
+      `<div class="stat"><b>${srcs.length}</b><span>источников</span></div>` +
+      `<div class="stat"><b>${total}</b><span>записей в базе</span></div>` +
+      `<div class="stat"><b style="color:${err ? "var(--err)" : "var(--accent)"}">${err}</b><span>в ошибке</span></div>` +
+      `<div class="stat"><b style="color:${stale ? "var(--warn)" : "var(--accent)"}">${stale}</b><span>без свежих данных</span></div>`;
+
+    document.getElementById("sources").innerHTML = srcs.map(s => {
+      const c = cls(s);
+      const fails = s.consecutive_failures > 0 ? ` · падений подряд: ${s.consecutive_failures}` : "";
+      return `<div class="src">
+        <div class="row1">
+          <span class="dot ${c}"></span><b>${s.name}</b>
+          <span class="sid">${s.id}</span>
+          <span class="count"><b>${s.entries}</b> записей</span>
+        </div>
+        <div class="row2">
+          <span>статус: <b>${label(s)}${fails}</b></span>
+          <span>интервал: <b>${s.interval_minutes} мин</b></span>
+          <span>успех: <b>${timeAgo(s.last_success_at)}</b></span>
+          <span>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
+        </div>
+        ${s.last_error ? `<div class="errbox">${s.last_error}</div>` : ""}
+      </div>`;
+    }).join("");
+  } catch (e) {
+    document.getElementById("meta").textContent = "status.json недоступен";
+  }
+}
+refresh();
+setInterval(refresh, 5 * 60 * 1000);
 </script>
 </body>
 </html>
