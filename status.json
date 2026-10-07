@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T15:34:25.849Z",
+  "generated_at": "2026-10-07T16:00:54.188Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -71,6 +71,62 @@
       "consecutive_failures": 0,
       "entries": 11,
       "stale": false
+    },
+    {
+      "id": "bing-world-ai",
+      "name": "Bing News (world): avian influenza outbreaks",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-07 16:00:53",
+      "last_success_at": "2026-10-07 16:00:53",
+      "last_item_at": "2026-10-07 16:00:53",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 12,
+      "stale": false
+    },
+    {
+      "id": "bing-world-asf",
+      "name": "Bing News (world): african swine fever outbreaks",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-07 16:00:52",
+      "last_success_at": "2026-10-07 16:00:52",
+      "last_item_at": "2026-10-07 16:00:52",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 11,
+      "stale": false
+    },
+    {
+      "id": "bing-world-fmd",
+      "name": "Bing News (world): foot-and-mouth outbreaks",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-07 16:00:51",
+      "last_success_at": "2026-10-07 16:00:51",
+      "last_item_at": "2026-10-07 16:00:51",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 9,
+      "stale": false
+    },
+    {
+      "id": "bing-world-lsd",
+      "name": "Bing News (world): lumpy skin disease outbreaks",
+      "enabled": 1,
+      "interval_minutes": 360,
+      "last_run_at": null,
+      "last_success_at": null,
+      "last_item_at": null,
+      "last_status": null,
+      "last_error": null,
+      "consecutive_failures": null,
+      "entries": 0,
+      "stale": true
     },
     {
       "id": "pubmed-bovine-mastitis",
