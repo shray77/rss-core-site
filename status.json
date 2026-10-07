@@ -1,17 +1,17 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T15:24:27.566Z",
+  "generated_at": "2026-10-07T15:26:26.473Z",
   "sources": [
     {
       "id": "fsvps-glavnoe",
       "name": "Россельхознадзор: главное",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 15:18:28",
+      "last_run_at": "2026-10-07 15:25:45",
       "last_success_at": null,
       "last_item_at": null,
       "last_status": "error",
-      "last_error": "fetchText is not defined",
+      "last_error": "The operation was aborted due to timeout",
       "consecutive_failures": 1,
       "entries": 0,
       "stale": true
@@ -21,11 +21,11 @@
       "name": "Россельхознадзор: информационные системы",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-07 15:18:29",
+      "last_run_at": "2026-10-07 15:26:26",
       "last_success_at": null,
       "last_item_at": null,
       "last_status": "error",
-      "last_error": "fetchText is not defined",
+      "last_error": "The operation was aborted due to timeout",
       "consecutive_failures": 1,
       "entries": 0,
       "stale": true
@@ -35,11 +35,11 @@
       "name": "Россельхознадзор: региональные новости",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 15:18:29",
+      "last_run_at": "2026-10-07 15:26:05",
       "last_success_at": null,
       "last_item_at": null,
       "last_status": "error",
-      "last_error": "fetchText is not defined",
+      "last_error": "The operation was aborted due to timeout",
       "consecutive_failures": 1,
       "entries": 0,
       "stale": true
