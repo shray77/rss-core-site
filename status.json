@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T16:00:54.188Z",
+  "generated_at": "2026-10-07T18:00:50.907Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -119,14 +119,14 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": null,
-      "last_success_at": null,
-      "last_item_at": null,
-      "last_status": null,
+      "last_run_at": "2026-10-07 18:00:50",
+      "last_success_at": "2026-10-07 18:00:50",
+      "last_item_at": "2026-10-07 18:00:50",
+      "last_status": "ok",
       "last_error": null,
-      "consecutive_failures": null,
-      "entries": 0,
-      "stale": true
+      "consecutive_failures": 0,
+      "entries": 12,
+      "stale": false
     },
     {
       "id": "pubmed-bovine-mastitis",
