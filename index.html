@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rss-core — статус источников</title>
+<style>
+  :root { color-scheme: dark; }
+  body { background: #0d1117; color: #e6edf3; font: 15px/1.5 system-ui, sans-serif; margin: 0; padding: 24px; }
+  h1 { font-size: 20px; } h1 span { color: #8b949e; font-weight: normal; font-size: 14px; }
+  table { border-collapse: collapse; width: 100%; max-width: 1100px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #21262d; }
+  th { color: #8b949e; font-weight: 600; font-size: 13px; }
+  .ok { color: #3fb950; } .err { color: #f85149; } .stale { color: #d29922; }
+  #meta { color: #8b949e; font-size: 13px; margin-bottom: 16px; }
+  code { color: #79c0ff; }
+</style>
+</head>
+<body>
+<h1>rss-core — статус источников <span>(обновляется воркером по крону каждые 2 часа)</span></h1>
+<div id="meta">загрузка…</div>
+<table id="tbl">
+  <thead><tr><th>источник</th><th>статус</th><th>записей</th><th>последний успех</th><th>последняя новая запись</th><th>ошибка</th></tr></thead>
+  <tbody></tbody>
+</table>
+<script>
+const fmt = (s) => s ? new Date(s.replace(' ', 'T') + 'Z').toLocaleString('ru-RU') : '—';
+fetch('./status.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+  document.getElementById('meta').textContent = 'обновлено: ' + new Date(j.generated_at).toLocaleString('ru-RU');
+  document.querySelector('#tbl tbody').innerHTML = j.sources.map(s => {
+    const cls = s.last_status === 'ok' ? (s.stale ? 'stale' : 'ok') : 'err';
+    const label = s.last_status === 'ok' ? (s.stale ? 'нет данных' : 'ok') : 'ошибка';
+    return `<tr><td>${s.name}</td><td class="${cls}">${label}${s.consecutive_failures > 0 ? ` (${s.consecutive_failures})` : ''}</td>` +
+      `<td>${s.entries}</td><td>${fmt(s.last_success_at)}</td><td>${fmt(s.last_item_at)}</td><td><code>${(s.last_error || '').slice(0, 80)}</code></td></tr>`;
+  }).join('');
+}).catch(e => { document.getElementById('meta').textContent = 'не удалось загрузить status.json: ' + e; });
+</script>
+</body>
+</html>
