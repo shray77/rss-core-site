@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T14:13:31.763Z",
+  "generated_at": "2026-10-07T14:14:29.474Z",
   "sources": [
     {
       "id": "pubmed-bovine-mastitis",
@@ -9,12 +9,12 @@
       "interval_minutes": 720,
       "last_run_at": "2026-10-07 14:09:58",
       "last_success_at": "2026-10-07 14:09:58",
-      "last_item_at": "1.0",
+      "last_item_at": "2026-10-07 14:09:58",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 8,
-      "stale": true
+      "stale": false
     },
     {
       "id": "pubmed-canine-parvovirus",
@@ -23,12 +23,12 @@
       "interval_minutes": 720,
       "last_run_at": "2026-10-07 14:09:57",
       "last_success_at": "2026-10-07 14:09:57",
-      "last_item_at": "1.0",
+      "last_item_at": "2026-10-07 14:09:57",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 8,
-      "stale": true
+      "stale": false
     },
     {
       "id": "pubmed-vet-infectious",
@@ -37,12 +37,12 @@
       "interval_minutes": 240,
       "last_run_at": "2026-10-07 14:09:56",
       "last_success_at": "2026-10-07 14:09:56",
-      "last_item_at": "1.0",
+      "last_item_at": "2026-10-07 14:09:56",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 12,
-      "stale": true
+      "stale": false
     }
   ]
 }
