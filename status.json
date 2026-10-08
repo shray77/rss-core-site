@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T08:00:47.158Z",
+  "generated_at": "2026-10-08T10:00:41.944Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 06:00:48",
-      "last_success_at": "2026-10-08 06:00:48",
-      "last_item_at": "2026-10-08 06:00:48",
+      "last_run_at": "2026-10-08 10:00:40",
+      "last_success_at": "2026-10-08 10:00:40",
+      "last_item_at": "2026-10-08 10:00:40",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 39,
+      "entries": 48,
       "stale": false
     },
     {
@@ -35,13 +35,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 06:00:47",
-      "last_success_at": "2026-10-08 06:00:47",
-      "last_item_at": "2026-10-08 06:00:47",
+      "last_run_at": "2026-10-08 10:00:39",
+      "last_success_at": "2026-10-08 10:00:39",
+      "last_item_at": "2026-10-08 10:00:39",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 14,
+      "entries": 15,
       "stale": false
     },
     {
@@ -105,13 +105,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 00:00:41",
-      "last_success_at": "2026-10-08 00:00:41",
-      "last_item_at": "2026-10-08 00:00:41",
+      "last_run_at": "2026-10-08 10:00:41",
+      "last_success_at": "2026-10-08 10:00:41",
+      "last_item_at": "2026-10-08 10:00:41",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 18,
+      "entries": 27,
       "stale": false
     },
     {
