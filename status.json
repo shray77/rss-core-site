@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T00:00:41.671Z",
+  "generated_at": "2026-10-08T02:00:53.980Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 22:00:40",
-      "last_success_at": "2026-10-07 22:00:40",
-      "last_item_at": "2026-10-07 22:00:40",
+      "last_run_at": "2026-10-08 02:00:53",
+      "last_success_at": "2026-10-08 02:00:53",
+      "last_item_at": "2026-10-08 02:00:53",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 21,
+      "entries": 30,
       "stale": false
     },
     {
@@ -63,13 +63,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 22:00:39",
-      "last_success_at": "2026-10-07 22:00:39",
-      "last_item_at": "2026-10-07 22:00:39",
+      "last_run_at": "2026-10-08 02:00:52",
+      "last_success_at": "2026-10-08 02:00:52",
+      "last_item_at": "2026-10-08 02:00:52",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 13,
+      "entries": 15,
       "stale": false
     },
     {
@@ -161,12 +161,12 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 20:00:45",
+      "last_run_at": "2026-10-08 02:00:51",
       "last_success_at": "2026-10-07 20:00:45",
       "last_item_at": "2026-10-07 20:00:45",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42842471,42842143,42840969,42840593,42839251,42839185,42838974,42838688,42838392,42838287,42837770,42837729&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 14,
       "stale": false
     }
