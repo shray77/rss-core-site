@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T14:01:11.931Z",
+  "generated_at": "2026-10-08T15:39:48.464Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -14,21 +14,35 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 57,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-outbreak-other",
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 11:32:03",
-      "last_success_at": "2026-10-08 11:32:03",
-      "last_item_at": "2026-10-08 11:32:03",
+      "last_run_at": "2026-10-08 15:39:48",
+      "last_success_at": "2026-10-08 15:39:48",
+      "last_item_at": "2026-10-08 15:39:48",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 48,
-      "stale": false
+      "entries": 60,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-recall-fals",
@@ -42,21 +56,35 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 15,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-recall-series",
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 11:32:03",
-      "last_success_at": "2026-10-08 11:32:03",
-      "last_item_at": "2026-10-08 11:32:03",
+      "last_run_at": "2026-10-08 15:39:47",
+      "last_success_at": "2026-10-08 15:39:47",
+      "last_item_at": "2026-10-08 15:39:47",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 50,
-      "stale": false
+      "entries": 59,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-recall-vet",
@@ -70,35 +98,56 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 18,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-world-ai",
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 11:32:01",
-      "last_success_at": "2026-10-08 11:32:01",
-      "last_item_at": "2026-10-08 11:32:01",
+      "last_run_at": "2026-10-08 15:39:46",
+      "last_success_at": "2026-10-08 15:39:46",
+      "last_item_at": "2026-10-08 15:39:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 23,
-      "stale": false
+      "entries": 35,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-world-asf",
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 11:32:00",
-      "last_success_at": "2026-10-08 11:32:00",
-      "last_item_at": "2026-10-08 11:32:00",
+      "last_run_at": "2026-10-08 15:39:46",
+      "last_success_at": "2026-10-08 15:39:46",
+      "last_item_at": "2026-10-08 15:39:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 21,
-      "stale": false
+      "entries": 31,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-world-fmd",
@@ -112,7 +161,14 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 37,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "bing-world-lsd",
@@ -126,7 +182,14 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 24,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "fsvps-news",
@@ -140,7 +203,14 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 30,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "pubmed-bovine-mastitis",
@@ -154,7 +224,14 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 8,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     },
     {
       "id": "pubmed-canine-parvovirus",
@@ -168,7 +245,15 @@
       "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611&retmode=xml",
       "consecutive_failures": 1,
       "entries": 8,
-      "stale": false
+      "stale": false,
+      "error_code": "rate_limit",
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "err",
+          "e": "rate_limit"
+        }
+      ]
     },
     {
       "id": "pubmed-vet-infectious",
@@ -182,7 +267,14 @@
       "last_error": null,
       "consecutive_failures": 0,
       "entries": 23,
-      "stale": false
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-08T15:39:48.668Z",
+          "s": "ok"
+        }
+      ]
     }
   ]
 }
