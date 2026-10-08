@@ -93,6 +93,30 @@
   .errbox summary { cursor: pointer; color: var(--muted); font-size: 11.5px; }
   .errbox code { display: block; margin-top: 4px; word-break: break-all; opacity: .8; font-size: 11px; }
 
+  .skel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin-bottom: 12px; }
+  .sk { position: relative; overflow: hidden; background: #1a2030; border-radius: 6px; height: 12px; margin-bottom: 10px; }
+  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(232,236,243,.07), transparent); animation: shimmer 1.4s infinite; }
+  @keyframes shimmer { 100% { transform: translateX(100%); } }
+  .sk.t { height: 15px; width: 45%; }
+  .sk.w30 { width: 30%; }
+  .sk.w70 { width: 70%; }
+
+  .tools { margin: 0 0 14px; }
+  .chip-btn {
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+    font: 12px var(--mono); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: .15s;
+  }
+  .chip-btn:hover { color: var(--text); }
+  .chip-btn.active { color: var(--warn); border-color: rgba(251,191,36,.45); background: rgba(251,191,36,.1); }
+  .ecode { font: 11px var(--mono); color: var(--err); border: 1px solid rgba(248,113,113,.35); border-radius: 999px; padding: 1px 8px; }
+  .spark { display: flex; gap: 2px; align-items: flex-end; margin-top: 9px; flex-wrap: wrap; }
+  .spark .sl { font: 11px var(--mono); color: var(--faint); margin-right: 8px; align-self: center; }
+  .spark i { width: 7px; height: 14px; border-radius: 2px; background: var(--border); cursor: help; }
+  .spark i.ok { background: rgba(52,211,153,.5); }
+  .spark i.stale { background: rgba(251,191,36,.55); }
+  .spark i.err { background: rgba(248,113,113,.65); }
+  .failstate { color: var(--muted); text-align: center; padding: 40px 0; }
+
   .legend { margin: 22px 0 0; padding: 14px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
   .legend h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
   .legend div { display: flex; gap: 8px; align-items: center; font-size: 13.5px; color: var(--muted); margin: 5px 0; }
@@ -138,13 +162,19 @@
 <main class="wrap">
   <div id="alert"></div>
   <section class="stats" id="stats"></section>
-  <section id="sources"></section>
+  <div class="tools"><button class="chip-btn" id="only-problems" title="скрыть здоровые источники">только проблемные</button></div>
+  <section id="sources">
+    <div class="skel"><div class="sk t w30"></div><div class="sk w70"></div><div class="sk"></div><div class="sk w70"></div></div>
+    <div class="skel"><div class="sk t w30"></div><div class="sk w70"></div><div class="sk w70"></div></div>
+    <div class="skel"><div class="sk t w30"></div><div class="sk"></div><div class="sk w70"></div></div>
+  </section>
   <section class="legend">
     <h3>Легенда</h3>
     <div><span class="dot ok"></span>ok — источник опрашивается, свежие данные приходят по своему интервалу</div>
     <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48 ч или 2 интервала)</div>
     <div><span class="dot err"></span>ошибка — последний прогон упал; после 3 падений подряд воркер шлёт алерт</div>
     <div>полоска под источником — заполненность интервала: чем ближе к концу, тем ближе следующий прогон (и возможная просрочка)</div>
+    <div>прогоны — история последних проверок: зелёный ok, жёлтый нет данных, красный ошибка (наведи на квадрат)</div>
   </section>
 </main>
 
@@ -161,6 +191,7 @@
 <script>
 const AUTO = 5 * 60 * 1000;
 let lastGen = null, lastRun = Date.now();
+let onlyProblems = localStorage.getItem("rc-only-problems") === "1";
 
 const parseT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : NaN;
 const timeAgo = (s) => {
@@ -235,6 +266,18 @@ function tickMeta() {
   document.getElementById("cd").textContent = `автообновление через ${Math.floor(left / 60000)}:${String(Math.floor((left % 60000) / 1000)).padStart(2, "0")}`;
 }
 
+/* спарклайн последних прогонов: точки живут прямо в status.json (воркер
+   читает прошлый файл и дописывает), миграций D1 не нужно */
+function spark(s) {
+  const h = s.history || [];
+  if (!h.length) return "";
+  const pts = h.slice(-26).map(p => {
+    const when = new Date(p.t).toLocaleString("ru-RU", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    return `<i class="${esc(p.s)}" title="${esc(when)} · ${esc(p.s)}${p.e ? " (" + esc(p.e) + ")" : ""}"></i>`;
+  }).join("");
+  return `<div class="spark"><span class="sl">прогоны:</span>${pts}</div>`;
+}
+
 async function refresh() {
   lastRun = Date.now();
   try {
@@ -258,12 +301,15 @@ async function refresh() {
 
     renderAlert(srcs);
 
-    document.getElementById("sources").innerHTML = srcs.map(s => {
+    /* фильтр «только проблемные»: ошибки и stale, здоровые скрываются */
+    const shown = onlyProblems ? srcs.filter(s => s.last_status !== "ok" || s.stale) : srcs;
+    document.getElementById("sources").innerHTML = shown.length ? shown.map(s => {
       const c = cls(s);
       const f = fresh(s);
       const fails = s.consecutive_failures > 0 ? ` · падений подряд: ${s.consecutive_failures}` : "";
       const overdue = f.c !== "ok" ? ` class="overdue"` : "";
       const hum = humanErr(s);
+      const ec = s.error_code ? ` <span class="ecode" title="машиночитаемый класс ошибки">${esc(s.error_code)}</span>` : "";
       return `<div class="src" id="src-${esc(s.id)}">
         <div class="row1">
           <span class="dot ${c}"></span><b>${s.name}</b>
@@ -271,19 +317,31 @@ async function refresh() {
           <span class="count"><b>${s.entries}</b> записей</span>
         </div>
         <div class="row2">
-          <span>статус: <b>${label(s)}${fails}</b></span>
+          <span>статус: <b>${label(s)}</b>${ec}${fails}</span>
           <span>интервал: <b>${fmtInt(s.interval_minutes)}</b></span>
           <span>успех: <b>${timeAgo(s.last_success_at)}</b></span>
           <span${overdue}>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
         </div>
         <div class="fresh" title="заполненность интервала до следующего прогона"><i class="${f.c}" style="width:${f.pct}%"></i></div>
+        ${spark(s)}
         ${s.last_error ? `<div class="errbox">${hum ? esc(hum) + `<details><summary>технические детали</summary><code>${esc(trunc(s.last_error))}</code></details>` : esc(trunc(s.last_error))}</div>` : ""}
       </div>`;
-    }).join("");
+    }).join("") : `<div class="failstate">✓ проблем нет — все источники зелёные<br><button class="chip-btn" onclick="toggleProblems()">показать все</button></div>`;
   } catch (e) {
     document.getElementById("meta").textContent = "status.json недоступен";
+    document.getElementById("sources").innerHTML = `<div class="failstate">Не удалось загрузить status.json — обнови страницу или зайди позже.</div>`;
   }
 }
+
+/* переключатель «только проблемные» с памятью в localStorage */
+function toggleProblems() {
+  onlyProblems = !onlyProblems;
+  localStorage.setItem("rc-only-problems", onlyProblems ? "1" : "0");
+  document.getElementById("only-problems").classList.toggle("active", onlyProblems);
+  refresh();
+}
+document.getElementById("only-problems").classList.toggle("active", onlyProblems);
+document.getElementById("only-problems").onclick = toggleProblems;
 refresh();
 setInterval(refresh, AUTO);
 setInterval(tickMeta, 1000);
