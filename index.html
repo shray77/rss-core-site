@@ -273,7 +273,7 @@ function spark(s) {
   if (!h.length) return "";
   const pts = h.slice(-26).map(p => {
     const when = new Date(p.t).toLocaleString("ru-RU", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-    return `<i class="${esc(p.s)}" title="${esc(when)} · ${esc(p.s)}${p.e ? " (" + esc(p.e) + ")" : ""}"></i>`;
+    return `<i class="${esc(p.s)}" title="${esc(when)} · ${esc(p.s)}${p.e ? " (" + esc(p.e) + ")" : ""}${p.ms ? " · " + p.ms + " мс" : ""}"></i>`;
   }).join("");
   return `<div class="spark"><span class="sl">прогоны:</span>${pts}</div>`;
 }
