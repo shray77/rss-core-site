@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-07T22:00:41.492Z",
+  "generated_at": "2026-10-08T00:00:41.671Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -35,13 +35,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 20:00:47",
-      "last_success_at": "2026-10-07 20:00:47",
-      "last_item_at": "2026-10-07 20:00:47",
+      "last_run_at": "2026-10-08 00:00:40",
+      "last_success_at": "2026-10-08 00:00:40",
+      "last_item_at": "2026-10-08 00:00:40",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 12,
+      "entries": 13,
       "stale": false
     },
     {
@@ -49,13 +49,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-07 20:00:46",
-      "last_success_at": "2026-10-07 20:00:46",
-      "last_item_at": "2026-10-07 20:00:46",
+      "last_run_at": "2026-10-08 00:00:39",
+      "last_success_at": "2026-10-08 00:00:39",
+      "last_item_at": "2026-10-08 00:00:39",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 18,
+      "entries": 26,
       "stale": false
     },
     {
@@ -105,13 +105,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 16:00:51",
-      "last_success_at": "2026-10-07 16:00:51",
-      "last_item_at": "2026-10-07 16:00:51",
+      "last_run_at": "2026-10-08 00:00:41",
+      "last_success_at": "2026-10-08 00:00:41",
+      "last_item_at": "2026-10-08 00:00:41",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 9,
+      "entries": 18,
       "stale": false
     },
     {
