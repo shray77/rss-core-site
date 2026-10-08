@@ -15,6 +15,7 @@
   .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 920px; margin: 0 auto; padding: 12px 20px 0; }
   .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
   .hub a:hover { color: var(--text); border-color: #2c3543; }
+  .hub a.on { color: var(--accent); border-color: rgba(52,211,153,.45); background: var(--accent-dim); }
   :root {
     color-scheme: dark;
     --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
@@ -24,6 +25,8 @@
     --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
 
   header.top {
@@ -39,21 +42,31 @@
   }
   h1 { font-size: 24px; margin: 0; letter-spacing: -.02em; }
   .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
-  .live { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; font-family: var(--mono); }
+  .live { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; font-family: var(--mono); flex-wrap: wrap; }
+  .cd { color: var(--faint); }
   button.refresh {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     border-radius: 8px; padding: 6px 12px; font: 12.5px var(--mono); cursor: pointer;
   }
   button.refresh:hover { color: var(--text); border-color: #2c3543; }
 
+  .alertbar {
+    background: rgba(248,113,113,.08); border: 1px solid rgba(248,113,113,.3); color: var(--err);
+    border-radius: 12px; padding: 10px 14px; margin-top: 20px; font-size: 13.5px;
+  }
+  .alertbar.warn { background: rgba(251,191,36,.07); border-color: rgba(251,191,36,.3); color: var(--warn); }
+  .alertbar a { color: inherit; }
+
   .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 24px 0 20px; }
   .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
   .stat span { color: var(--muted); font-size: 12.5px; }
+  .stat.donut { display: flex; align-items: center; gap: 12px; }
+  .stat.donut b { font-size: 18px; }
 
   .src {
     background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
-    padding: 16px 18px; margin-bottom: 12px;
+    padding: 16px 18px; margin-bottom: 12px; scroll-margin-top: 70px;
   }
   .row1 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--faint); flex: none; }
@@ -66,14 +79,31 @@
   .count b { font-size: 12.5px; color: var(--text); }
   .row2 { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; color: var(--faint); font-size: 12.5px; font-family: var(--mono); }
   .row2 span b { color: var(--muted); font-weight: 500; }
+  .row2 .overdue b { color: var(--warn); }
+  .fresh { margin-top: 10px; height: 4px; border-radius: 999px; background: var(--border); overflow: hidden; }
+  .fresh i { display: block; height: 100%; border-radius: 999px; }
+  .fresh i.ok { background: var(--accent); }
+  .fresh i.warn { background: var(--warn); }
+  .fresh i.err { background: var(--err); }
   .errbox {
     margin-top: 10px; padding: 8px 12px; border-radius: 8px; font: 12.5px var(--mono);
     background: rgba(248,113,113,.07); border: 1px solid rgba(248,113,113,.25); color: var(--err);
   }
+  .errbox details { margin-top: 6px; }
+  .errbox summary { cursor: pointer; color: var(--muted); font-size: 11.5px; }
+  .errbox code { display: block; margin-top: 4px; word-break: break-all; opacity: .8; font-size: 11px; }
 
   .legend { margin: 22px 0 0; padding: 14px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
   .legend h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
   .legend div { display: flex; gap: 8px; align-items: center; font-size: 13.5px; color: var(--muted); margin: 5px 0; }
+
+  #totop {
+    position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border-radius: 50%;
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 18px;
+    cursor: pointer; opacity: 0; pointer-events: none; transition: .2s; z-index: 50;
+  }
+  #totop.show { opacity: 1; pointer-events: auto; }
+  #totop:hover { color: var(--accent); border-color: rgba(52,211,153,.45); }
 
   footer { border-top: 1px solid var(--border); margin-top: 36px; padding: 18px 0 30px; }
   .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
@@ -99,12 +129,14 @@
     </div>
     <div class="live">
       <span id="meta">загрузка…</span>
+      <span id="cd" class="cd"></span>
       <button class="refresh" onclick="refresh()">обновить</button>
     </div>
   </div>
 </header>
 
 <main class="wrap">
+  <div id="alert"></div>
   <section class="stats" id="stats"></section>
   <section id="sources"></section>
   <section class="legend">
@@ -112,6 +144,7 @@
     <div><span class="dot ok"></span>ok — источник опрашивается, свежие данные приходят по своему интервалу</div>
     <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48 ч или 2 интервала)</div>
     <div><span class="dot err"></span>ошибка — последний прогон упал; после 3 падений подряд воркер шлёт алерт</div>
+    <div>полоска под источником — заполненность интервала: чем ближе к концу, тем ближе следующий прогон (и возможная просрочка)</div>
   </section>
 </main>
 
@@ -123,10 +156,15 @@
   </div>
 </footer>
 
+<button id="totop" title="наверх">↑</button>
+
 <script>
+const AUTO = 5 * 60 * 1000;
+let lastGen = null, lastRun = Date.now();
+
+const parseT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : NaN;
 const timeAgo = (s) => {
-  if (!s) return "—";
-  const ms = Date.now() - new Date(s.replace(" ", "T") + (s.includes("T") ? "" : "Z")).getTime();
+  const ms = Date.now() - parseT(s);
   if (isNaN(ms)) return "—";
   const m = Math.floor(ms / 60000);
   if (m < 1) return "только что";
@@ -135,28 +173,98 @@ const timeAgo = (s) => {
   if (h < 24) return h + " ч назад";
   return Math.floor(h / 24) + " дн назад";
 };
+const fmtInt = (m) => m >= 60 ? (m / 60) + " ч" : m + " мин";
 const cls = (s) => s.last_status !== "ok" ? "err" : (s.stale ? "stale" : "ok");
 const label = (s) => s.last_status !== "ok" ? "ошибка" : (s.stale ? "нет данных" : "ok");
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const trunc = (t) => t.length > 140 ? t.slice(0, 140) + "…" : t;
+
+/* человекочитаемая диагностика вместо сырого URL */
+function humanErr(s) {
+  const raw = String(s.last_error || "").trim();
+  if (/429/.test(raw)) return `NCBI PubMed ограничивает частоту запросов (HTTP 429). Это не потеря данных: воркер повторит по расписанию (интервал ${fmtInt(s.interval_minutes)}), записи прошлых прогонов уже в базе.`;
+  if (/timeout|timed?\s*out|etimedout/i.test(raw)) return `Источник не ответил вовремя — повтор по расписанию (интервал ${fmtInt(s.interval_minutes)}).`;
+  if (/403|forbidden/i.test(raw)) return `Источник закрыл запрос (HTTP 403) — вероятно, сработала бот-защита; воркер повторит позже.`;
+  if (/404/.test(raw)) return `Страница источника не найдена (HTTP 404) — вероятно, изменился адрес фида; нужен пересмотр источника.`;
+  if (/5\d\d/.test(raw)) return `Сбой на стороне источника (HTTP 5xx) — повтор по расписанию.`;
+  return null;
+}
+
+/* свежесть: доля прошедшего интервала до следующего ожидаемого прогона */
+function fresh(s) {
+  const t = parseT(s.last_success_at);
+  if (isNaN(t)) return { pct: 100, c: "err" };
+  const ratio = (Date.now() - t) / ((s.interval_minutes || 60) * 60000);
+  const pct = Math.max(0, Math.min(1, ratio)) * 100;
+  const c = (s.stale || ratio >= 1) ? "err" : ratio >= .5 ? "warn" : "ok";
+  return { pct, c };
+}
+
+function renderAlert(srcs) {
+  const errs = srcs.filter(s => s.last_status !== "ok");
+  const stales = srcs.filter(s => s.last_status === "ok" && s.stale);
+  const al = document.getElementById("alert");
+  if (errs.length) {
+    const verb = errs.length === 1 ? "1 источник в ошибке" : `${errs.length} источников в ошибке`;
+    al.innerHTML = `<div class="alertbar">⚠ ${verb}: ${errs.map(s => esc(s.name)).join(", ")}. Данные не теряются — повтор по расписанию. <a href="#src-${esc(errs[0].id)}">к карточке ↓</a></div>`;
+  } else if (stales.length) {
+    al.innerHTML = `<div class="alertbar warn">⏳ нет свежих данных: ${stales.map(s => esc(s.name)).join(", ")} — источник жив, но давно не приносил записей. <a href="#src-${esc(stales[0].id)}">к карточке ↓</a></div>`;
+  } else {
+    al.innerHTML = "";
+  }
+}
+
+function donut(srcs) {
+  const healthy = srcs.filter(s => s.last_status === "ok" && !s.stale).length;
+  const frac = srcs.length ? healthy / srcs.length : 0;
+  const C = 2 * Math.PI * 26;
+  const color = frac >= .8 ? "#34d399" : frac >= .5 ? "#fbbf24" : "#f87171";
+  return `<div class="stat donut">
+    <svg width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="здоровье конвейера">
+      <circle cx="32" cy="32" r="26" fill="none" stroke="#1f2530" stroke-width="7"/>
+      <circle cx="32" cy="32" r="26" fill="none" stroke="${color}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${(frac * C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 32 32)"/>
+      <text x="32" y="37" text-anchor="middle" font-size="14" font-weight="700" fill="#e8ecf3">${Math.round(frac * 100)}%</text>
+    </svg>
+    <div><b>${healthy}/${srcs.length}</b><span>здоровых источников</span></div>
+  </div>`;
+}
+
+function tickMeta() {
+  if (lastGen) document.getElementById("meta").textContent = "обновлено " + timeAgo(lastGen);
+  const left = Math.max(0, AUTO - (Date.now() - lastRun));
+  document.getElementById("cd").textContent = `автообновление через ${Math.floor(left / 60000)}:${String(Math.floor((left % 60000) / 1000)).padStart(2, "0")}`;
+}
 
 async function refresh() {
+  lastRun = Date.now();
   try {
     const j = await (await fetch("./status.json", { cache: "no-store" })).json();
+    lastGen = j.generated_at;
     const srcs = j.sources || [];
+    /* ошибки — наверх, затем stale, дальше по имени */
+    const w = (s) => s.last_status !== "ok" ? 0 : s.stale ? 1 : 2;
+    srcs.sort((a, b) => w(a) - w(b) || a.name.localeCompare(b.name));
     const err = srcs.filter(s => s.last_status !== "ok").length;
     const stale = srcs.filter(s => s.last_status === "ok" && s.stale).length;
     const total = srcs.reduce((n, s) => n + (s.entries || 0), 0);
 
-    document.getElementById("meta").textContent = "обновлено " + timeAgo(j.generated_at);
+    tickMeta();
     document.getElementById("stats").innerHTML =
+      donut(srcs) +
       `<div class="stat"><b>${srcs.length}</b><span>источников</span></div>` +
       `<div class="stat"><b>${total}</b><span>записей в базе</span></div>` +
       `<div class="stat"><b style="color:${err ? "var(--err)" : "var(--accent)"}">${err}</b><span>в ошибке</span></div>` +
       `<div class="stat"><b style="color:${stale ? "var(--warn)" : "var(--accent)"}">${stale}</b><span>без свежих данных</span></div>`;
 
+    renderAlert(srcs);
+
     document.getElementById("sources").innerHTML = srcs.map(s => {
       const c = cls(s);
+      const f = fresh(s);
       const fails = s.consecutive_failures > 0 ? ` · падений подряд: ${s.consecutive_failures}` : "";
-      return `<div class="src">
+      const overdue = f.c !== "ok" ? ` class="overdue"` : "";
+      const hum = humanErr(s);
+      return `<div class="src" id="src-${esc(s.id)}">
         <div class="row1">
           <span class="dot ${c}"></span><b>${s.name}</b>
           <span class="sid">${s.id}</span>
@@ -164,11 +272,12 @@ async function refresh() {
         </div>
         <div class="row2">
           <span>статус: <b>${label(s)}${fails}</b></span>
-          <span>интервал: <b>${s.interval_minutes >= 60 ? (s.interval_minutes / 60) + " ч" : s.interval_minutes + " мин"}</b></span>
+          <span>интервал: <b>${fmtInt(s.interval_minutes)}</b></span>
           <span>успех: <b>${timeAgo(s.last_success_at)}</b></span>
-          <span>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
+          <span${overdue}>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
         </div>
-        ${s.last_error ? `<div class="errbox">${s.last_error}</div>` : ""}
+        <div class="fresh" title="заполненность интервала до следующего прогона"><i class="${f.c}" style="width:${f.pct}%"></i></div>
+        ${s.last_error ? `<div class="errbox">${hum ? esc(hum) + `<details><summary>технические детали</summary><code>${esc(trunc(s.last_error))}</code></details>` : esc(trunc(s.last_error))}</div>` : ""}
       </div>`;
     }).join("");
   } catch (e) {
@@ -176,7 +285,12 @@ async function refresh() {
   }
 }
 refresh();
-setInterval(refresh, 5 * 60 * 1000);
+setInterval(refresh, AUTO);
+setInterval(tickMeta, 1000);
+
+const totop = document.getElementById("totop");
+addEventListener("scroll", () => totop.classList.toggle("show", scrollY > 600), { passive: true });
+totop.onclick = () => scrollTo({ top: 0, behavior: "smooth" });
 </script>
 </body>
 </html>
