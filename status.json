@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T04:00:53.754Z",
+  "generated_at": "2026-10-08T06:00:50.086Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 02:00:53",
-      "last_success_at": "2026-10-08 02:00:53",
-      "last_item_at": "2026-10-08 02:00:53",
+      "last_run_at": "2026-10-08 06:00:48",
+      "last_success_at": "2026-10-08 06:00:48",
+      "last_item_at": "2026-10-08 06:00:48",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 30,
+      "entries": 39,
       "stale": false
     },
     {
@@ -21,13 +21,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-07 22:00:41",
-      "last_success_at": "2026-10-07 22:00:41",
-      "last_item_at": "2026-10-07 22:00:41",
+      "last_run_at": "2026-10-08 06:00:49",
+      "last_success_at": "2026-10-08 06:00:49",
+      "last_item_at": "2026-10-08 06:00:49",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 24,
+      "entries": 36,
       "stale": false
     },
     {
@@ -35,13 +35,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 00:00:40",
-      "last_success_at": "2026-10-08 00:00:40",
-      "last_item_at": "2026-10-08 00:00:40",
+      "last_run_at": "2026-10-08 06:00:47",
+      "last_success_at": "2026-10-08 06:00:47",
+      "last_item_at": "2026-10-08 06:00:47",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 13,
+      "entries": 14,
       "stale": false
     },
     {
