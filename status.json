@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T15:39:48.464Z",
+  "generated_at": "2026-10-08T16:01:33.713Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -217,9 +217,9 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-08 04:00:52",
-      "last_success_at": "2026-10-08 04:00:52",
-      "last_item_at": "2026-10-08 04:00:52",
+      "last_run_at": "2026-10-08 16:01:33",
+      "last_success_at": "2026-10-08 16:01:33",
+      "last_item_at": "2026-10-08 16:01:33",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -238,20 +238,24 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-08 04:00:49",
-      "last_success_at": "2026-10-07 14:09:57",
-      "last_item_at": "2026-10-07 14:09:57",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611&retmode=xml",
-      "consecutive_failures": 1,
+      "last_run_at": "2026-10-08 16:01:31",
+      "last_success_at": "2026-10-08 16:01:31",
+      "last_item_at": "2026-10-08 16:01:31",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
       "entries": 8,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-08T16:01:34.778Z",
+          "s": "ok"
         }
       ]
     },
