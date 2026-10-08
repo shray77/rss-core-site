@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-08T06:00:50.086Z",
+  "generated_at": "2026-10-08T08:00:47.158Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -49,13 +49,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-08 04:00:53",
-      "last_success_at": "2026-10-08 04:00:53",
-      "last_item_at": "2026-10-08 04:00:53",
+      "last_run_at": "2026-10-08 08:00:45",
+      "last_success_at": "2026-10-08 08:00:45",
+      "last_item_at": "2026-10-08 08:00:45",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 34,
+      "entries": 41,
       "stale": false
     },
     {
@@ -63,13 +63,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 02:00:52",
-      "last_success_at": "2026-10-08 02:00:52",
-      "last_item_at": "2026-10-08 02:00:52",
+      "last_run_at": "2026-10-08 08:00:46",
+      "last_success_at": "2026-10-08 08:00:46",
+      "last_item_at": "2026-10-08 08:00:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 15,
+      "entries": 16,
       "stale": false
     },
     {
@@ -161,13 +161,13 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-08 02:00:51",
-      "last_success_at": "2026-10-07 20:00:45",
-      "last_item_at": "2026-10-07 20:00:45",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42842471,42842143,42840969,42840593,42839251,42839185,42838974,42838688,42838392,42838287,42837770,42837729&retmode=xml",
-      "consecutive_failures": 1,
-      "entries": 14,
+      "last_run_at": "2026-10-08 08:00:43",
+      "last_success_at": "2026-10-08 08:00:43",
+      "last_item_at": "2026-10-08 08:00:43",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 19,
       "stale": false
     }
   ]
