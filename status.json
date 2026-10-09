@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-09T06:01:43.932Z",
+  "generated_at": "2026-10-09T08:01:27.281Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 02:01:08",
-      "last_success_at": "2026-10-09 02:01:08",
-      "last_item_at": "2026-10-09 02:01:08",
+      "last_run_at": "2026-10-09 08:01:24",
+      "last_success_at": "2026-10-09 08:01:24",
+      "last_item_at": "2026-10-09 08:01:24",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 87,
+      "entries": 96,
       "stale": false,
       "error_code": null,
       "history": [
@@ -51,6 +51,11 @@
         {
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok",
+          "ms": 2451
         }
       ]
     },
@@ -59,13 +64,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:06",
-      "last_success_at": "2026-10-09 02:01:06",
-      "last_item_at": "2026-10-09 02:01:06",
+      "last_run_at": "2026-10-09 08:01:21",
+      "last_success_at": "2026-10-09 08:01:21",
+      "last_item_at": "2026-10-09 08:01:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 84,
+      "entries": 96,
       "stale": false,
       "error_code": null,
       "history": [
@@ -102,6 +107,11 @@
         {
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok",
+          "ms": 1447
         }
       ]
     },
@@ -110,13 +120,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 02:01:06",
-      "last_success_at": "2026-10-09 02:01:06",
-      "last_item_at": "2026-10-09 02:01:06",
+      "last_run_at": "2026-10-09 08:01:20",
+      "last_success_at": "2026-10-09 08:01:20",
+      "last_item_at": "2026-10-09 08:01:20",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 27,
+      "entries": 28,
       "stale": false,
       "error_code": null,
       "history": [
@@ -154,6 +164,11 @@
         {
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok",
+          "ms": 821
         }
       ]
     },
@@ -162,13 +177,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 03:03:50",
-      "last_success_at": "2026-10-09 03:03:50",
-      "last_item_at": "2026-10-09 03:03:50",
+      "last_run_at": "2026-10-09 08:01:26",
+      "last_success_at": "2026-10-09 08:01:26",
+      "last_item_at": "2026-10-09 08:01:26",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 85,
+      "entries": 91,
       "stale": false,
       "error_code": null,
       "history": [
@@ -206,6 +221,11 @@
         {
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok",
+          "ms": 2711
         }
       ]
     },
@@ -258,6 +278,10 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok",
           "ms": 1377
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok"
         }
       ]
     },
@@ -310,6 +334,10 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok",
           "ms": 1906
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok"
         }
       ]
     },
@@ -362,6 +390,10 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok",
           "ms": 3462
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok"
         }
       ]
     },
@@ -414,6 +446,10 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok",
           "ms": 1008
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok"
         }
       ]
     },
@@ -466,6 +502,10 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "ok",
           "ms": 1974
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "ok"
         }
       ]
     },
@@ -474,13 +514,13 @@
       "name": "Actions relay (ФСВПС и др.)",
       "enabled": 1,
       "interval_minutes": 0,
-      "last_run_at": "2026-10-08 18:55:36",
+      "last_run_at": "2026-10-09 06:23:30",
       "last_success_at": "2026-10-08 12:16:52",
-      "last_item_at": "2026-10-08 18:55:36",
+      "last_item_at": "2026-10-09 06:23:30",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 42,
+      "entries": 44,
       "stale": false,
       "error_code": null,
       "history": [
@@ -514,6 +554,10 @@
         },
         {
           "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
           "s": "ok"
         }
       ]
@@ -563,6 +607,11 @@
         },
         {
           "t": "2026-10-09T06:01:44.308Z",
+          "s": "err",
+          "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
           "s": "err",
           "e": "rate_limit"
         }
@@ -620,6 +669,11 @@
           "t": "2026-10-09T06:01:44.308Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -670,6 +724,11 @@
         },
         {
           "t": "2026-10-09T06:01:44.308Z",
+          "s": "err",
+          "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T08:01:27.710Z",
           "s": "err",
           "e": "rate_limit"
         }
