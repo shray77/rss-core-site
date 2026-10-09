@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-09T04:00:49.175Z",
+  "generated_at": "2026-10-09T06:01:43.932Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -46,6 +46,10 @@
         },
         {
           "t": "2026-10-09T03:03:50.813Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
         }
       ]
@@ -93,6 +97,10 @@
         },
         {
           "t": "2026-10-09T03:03:50.813Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
           "s": "ok"
         }
       ]
@@ -142,6 +150,10 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok"
         }
       ]
     },
@@ -190,6 +202,10 @@
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok",
           "ms": 475
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok"
         }
       ]
     },
@@ -198,13 +214,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:03",
-      "last_success_at": "2026-10-09 02:01:03",
-      "last_item_at": "2026-10-09 02:01:03",
+      "last_run_at": "2026-10-09 06:01:37",
+      "last_success_at": "2026-10-09 06:01:37",
+      "last_item_at": "2026-10-09 06:01:37",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 22,
+      "entries": 24,
       "stale": false,
       "error_code": null,
       "history": [
@@ -237,6 +253,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok",
+          "ms": 1377
         }
       ]
     },
@@ -245,13 +266,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:05",
-      "last_success_at": "2026-10-09 02:01:05",
-      "last_item_at": "2026-10-09 02:01:05",
+      "last_run_at": "2026-10-09 06:01:43",
+      "last_success_at": "2026-10-09 06:01:43",
+      "last_item_at": "2026-10-09 06:01:43",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 59,
+      "entries": 71,
       "stale": false,
       "error_code": null,
       "history": [
@@ -284,6 +305,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok",
+          "ms": 1906
         }
       ]
     },
@@ -292,13 +318,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:04",
-      "last_success_at": "2026-10-09 02:01:04",
-      "last_item_at": "2026-10-09 02:01:04",
+      "last_run_at": "2026-10-09 06:01:41",
+      "last_success_at": "2026-10-09 06:01:41",
+      "last_item_at": "2026-10-09 06:01:41",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 52,
+      "entries": 63,
       "stale": false,
       "error_code": null,
       "history": [
@@ -331,6 +357,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok",
+          "ms": 3462
         }
       ]
     },
@@ -339,13 +370,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:03",
-      "last_success_at": "2026-10-09 02:01:03",
-      "last_item_at": "2026-10-09 02:01:03",
+      "last_run_at": "2026-10-09 06:01:38",
+      "last_success_at": "2026-10-09 06:01:38",
+      "last_item_at": "2026-10-09 06:01:38",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 58,
+      "entries": 69,
       "stale": false,
       "error_code": null,
       "history": [
@@ -378,6 +409,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok",
+          "ms": 1008
         }
       ]
     },
@@ -386,13 +422,13 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-09 00:00:41",
-      "last_success_at": "2026-10-09 00:00:41",
-      "last_item_at": "2026-10-09 00:00:41",
+      "last_run_at": "2026-10-09 06:01:35",
+      "last_success_at": "2026-10-09 06:01:35",
+      "last_item_at": "2026-10-09 06:01:35",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 48,
+      "entries": 60,
       "stale": false,
       "error_code": null,
       "history": [
@@ -425,6 +461,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok",
+          "ms": 1974
         }
       ]
     },
@@ -470,6 +511,10 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "ok"
         }
       ]
     },
@@ -478,15 +523,15 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-08 16:01:33",
+      "last_run_at": "2026-10-09 06:01:33",
       "last_success_at": "2026-10-08 16:01:33",
       "last_item_at": "2026-10-08 16:01:33",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611,42837735,42835315,42816861,42808756,42807853,42804024,42803767,42797960&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 8,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
@@ -515,6 +560,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -523,15 +573,15 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-08 16:01:31",
+      "last_run_at": "2026-10-09 06:01:33",
       "last_success_at": "2026-10-08 16:01:31",
       "last_item_at": "2026-10-08 16:01:31",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611,42837735,42835315,42816861,42808756,42807853,42804024,42803767,42797960&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 8,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
@@ -565,6 +615,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -573,15 +628,15 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 02:01:02",
+      "last_run_at": "2026-10-09 06:01:26",
       "last_success_at": "2026-10-09 02:01:02",
       "last_item_at": "2026-10-09 02:01:02",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20infectious%20diseases&retmax=12&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 28,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
@@ -612,6 +667,11 @@
         {
           "t": "2026-10-09T03:03:50.813Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T06:01:44.308Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     }
