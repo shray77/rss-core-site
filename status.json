@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-09T10:00:45.039Z",
+  "generated_at": "2026-10-09T10:27:09.791Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -250,13 +250,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 06:01:37",
-      "last_success_at": "2026-10-09 06:01:37",
-      "last_item_at": "2026-10-09 06:01:37",
+      "last_run_at": "2026-10-09 10:27:07",
+      "last_success_at": "2026-10-09 10:27:07",
+      "last_item_at": "2026-10-09 10:27:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 24,
+      "entries": 35,
       "stale": false,
       "error_code": null,
       "history": [
@@ -301,7 +301,8 @@
         },
         {
           "t": "2026-10-09T10:00:45.507Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 609
         }
       ]
     },
@@ -310,13 +311,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 06:01:43",
-      "last_success_at": "2026-10-09 06:01:43",
-      "last_item_at": "2026-10-09 06:01:43",
+      "last_run_at": "2026-10-09 10:27:09",
+      "last_success_at": "2026-10-09 10:27:09",
+      "last_item_at": "2026-10-09 10:27:09",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 71,
+      "entries": 83,
       "stale": false,
       "error_code": null,
       "history": [
@@ -361,7 +362,8 @@
         },
         {
           "t": "2026-10-09T10:00:45.507Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 629
         }
       ]
     },
@@ -370,13 +372,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 06:01:41",
-      "last_success_at": "2026-10-09 06:01:41",
-      "last_item_at": "2026-10-09 06:01:41",
+      "last_run_at": "2026-10-09 10:27:08",
+      "last_success_at": "2026-10-09 10:27:08",
+      "last_item_at": "2026-10-09 10:27:08",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 63,
+      "entries": 74,
       "stale": false,
       "error_code": null,
       "history": [
@@ -421,7 +423,8 @@
         },
         {
           "t": "2026-10-09T10:00:45.507Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 644
         }
       ]
     },
@@ -430,13 +433,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 06:01:38",
-      "last_success_at": "2026-10-09 06:01:38",
-      "last_item_at": "2026-10-09 06:01:38",
+      "last_run_at": "2026-10-09 10:27:08",
+      "last_success_at": "2026-10-09 10:27:08",
+      "last_item_at": "2026-10-09 10:27:08",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 69,
+      "entries": 80,
       "stale": false,
       "error_code": null,
       "history": [
@@ -481,7 +484,8 @@
         },
         {
           "t": "2026-10-09T10:00:45.507Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 706
         }
       ]
     },
@@ -732,15 +736,15 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 06:01:26",
-      "last_success_at": "2026-10-09 02:01:02",
-      "last_item_at": "2026-10-09 02:01:02",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20infectious%20diseases&retmax=12&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 28,
+      "last_run_at": "2026-10-09 10:27:06",
+      "last_success_at": "2026-10-09 10:27:06",
+      "last_item_at": "2026-10-09 10:27:06",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 39,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
@@ -786,6 +790,11 @@
           "t": "2026-10-09T10:00:45.507Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T10:27:09.961Z",
+          "s": "ok",
+          "ms": 1229
         }
       ]
     }
