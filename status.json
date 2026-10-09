@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-09T18:00:49.694Z",
+  "generated_at": "2026-10-09T20:01:00.136Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 16:01:42",
-      "last_success_at": "2026-10-09 16:01:42",
-      "last_item_at": "2026-10-09 16:01:42",
+      "last_run_at": "2026-10-09 20:00:58",
+      "last_success_at": "2026-10-09 20:00:58",
+      "last_item_at": "2026-10-09 20:00:58",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 114,
+      "entries": 123,
       "stale": false,
       "error_code": null,
       "history": [
@@ -78,6 +78,11 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok",
+          "ms": 692
         }
       ]
     },
@@ -86,13 +91,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 14:01:12",
-      "last_success_at": "2026-10-09 14:01:12",
-      "last_item_at": "2026-10-09 14:01:12",
+      "last_run_at": "2026-10-09 20:00:57",
+      "last_success_at": "2026-10-09 20:00:57",
+      "last_item_at": "2026-10-09 20:00:57",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 108,
+      "entries": 120,
       "stale": false,
       "error_code": null,
       "history": [
@@ -155,6 +160,11 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok",
+          "ms": 843
         }
       ]
     },
@@ -163,13 +173,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 16:01:41",
-      "last_success_at": "2026-10-09 16:01:41",
-      "last_item_at": "2026-10-09 12:00:46",
+      "last_run_at": "2026-10-09 20:00:58",
+      "last_success_at": "2026-10-09 20:00:58",
+      "last_item_at": "2026-10-09 20:00:58",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 29,
+      "entries": 30,
       "stale": false,
       "error_code": null,
       "history": [
@@ -234,6 +244,11 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok",
+          "ms": 837
         }
       ]
     },
@@ -242,13 +257,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-09 16:01:43",
-      "last_success_at": "2026-10-09 16:01:43",
-      "last_item_at": "2026-10-09 16:01:43",
+      "last_run_at": "2026-10-09 20:00:59",
+      "last_success_at": "2026-10-09 20:00:59",
+      "last_item_at": "2026-10-09 20:00:59",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 105,
+      "entries": 111,
       "stale": false,
       "error_code": null,
       "history": [
@@ -313,6 +328,11 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok",
+          "ms": 674
         }
       ]
     },
@@ -390,6 +410,10 @@
         },
         {
           "t": "2026-10-09T17:10:20.219Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
         }
       ]
@@ -469,6 +493,10 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok"
         }
       ]
     },
@@ -546,6 +574,10 @@
         },
         {
           "t": "2026-10-09T17:10:20.219Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
         }
       ]
@@ -625,6 +657,10 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok"
         }
       ]
     },
@@ -702,6 +738,10 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok"
         }
       ]
     },
@@ -775,6 +815,10 @@
         {
           "t": "2026-10-09T17:10:20.219Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok"
         }
       ]
     },
@@ -783,15 +827,15 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-09 06:01:33",
-      "last_success_at": "2026-10-08 16:01:33",
-      "last_item_at": "2026-10-08 16:01:33",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611,42837735,42835315,42816861,42808756,42807853,42804024,42803767,42797960&retmode=xml",
-      "consecutive_failures": 1,
-      "entries": 8,
+      "last_run_at": "2026-10-09 20:00:56",
+      "last_success_at": "2026-10-09 20:00:56",
+      "last_item_at": "2026-10-09 20:00:56",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 10,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
         {
           "t": "2026-10-08T15:39:48.668Z",
@@ -855,6 +899,11 @@
           "t": "2026-10-09T17:10:20.219Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok",
+          "ms": 1735
         }
       ]
     },
@@ -863,12 +912,12 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-09 06:01:33",
+      "last_run_at": "2026-10-09 20:00:53",
       "last_success_at": "2026-10-08 16:01:31",
       "last_item_at": "2026-10-08 16:01:31",
       "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42806508,42797816,42797642,42797634,42791717,42774133,42765113,42741611,42837735,42835315,42816861,42808756,42807853,42804024,42803767,42797960&retmode=xml",
-      "consecutive_failures": 1,
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 2,
       "entries": 8,
       "stale": false,
       "error_code": "rate_limit",
@@ -938,6 +987,11 @@
         },
         {
           "t": "2026-10-09T17:10:20.219Z",
+          "s": "err",
+          "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
           "s": "err",
           "e": "rate_limit"
         }
@@ -1023,6 +1077,10 @@
         },
         {
           "t": "2026-10-09T17:10:20.219Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
         }
       ]
