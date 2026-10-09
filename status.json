@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-09T20:01:00.136Z",
+  "generated_at": "2026-10-09T21:52:04.249Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -83,6 +83,10 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok",
           "ms": 692
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok"
         }
       ]
     },
@@ -165,6 +169,10 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok",
           "ms": 843
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok"
         }
       ]
     },
@@ -249,6 +257,10 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok",
           "ms": 837
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok"
         }
       ]
     },
@@ -333,6 +345,10 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok",
           "ms": 674
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok"
         }
       ]
     },
@@ -341,13 +357,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 16:01:38",
-      "last_success_at": "2026-10-09 16:01:38",
-      "last_item_at": "2026-10-09 16:01:38",
+      "last_run_at": "2026-10-09 21:52:01",
+      "last_success_at": "2026-10-09 21:52:01",
+      "last_item_at": "2026-10-09 21:52:01",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 37,
+      "entries": 47,
       "stale": false,
       "error_code": null,
       "history": [
@@ -415,6 +431,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 718
         }
       ]
     },
@@ -423,13 +444,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 16:01:41",
-      "last_success_at": "2026-10-09 16:01:41",
-      "last_item_at": "2026-10-09 16:01:41",
+      "last_run_at": "2026-10-09 21:52:04",
+      "last_success_at": "2026-10-09 21:52:04",
+      "last_item_at": "2026-10-09 21:52:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 95,
+      "entries": 107,
       "stale": false,
       "error_code": null,
       "history": [
@@ -497,6 +518,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 869
         }
       ]
     },
@@ -505,13 +531,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 16:01:40",
-      "last_success_at": "2026-10-09 16:01:40",
-      "last_item_at": "2026-10-09 16:01:40",
+      "last_run_at": "2026-10-09 21:52:03",
+      "last_success_at": "2026-10-09 21:52:03",
+      "last_item_at": "2026-10-09 21:52:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 85,
+      "entries": 96,
       "stale": false,
       "error_code": null,
       "history": [
@@ -579,6 +605,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 599
         }
       ]
     },
@@ -587,13 +618,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 16:01:39",
-      "last_success_at": "2026-10-09 16:01:39",
-      "last_item_at": "2026-10-09 16:01:39",
+      "last_run_at": "2026-10-09 21:52:02",
+      "last_success_at": "2026-10-09 21:52:02",
+      "last_item_at": "2026-10-09 21:52:02",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 91,
+      "entries": 102,
       "stale": false,
       "error_code": null,
       "history": [
@@ -661,6 +692,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 736
         }
       ]
     },
@@ -669,13 +705,13 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-09 14:01:11",
-      "last_success_at": "2026-10-09 14:01:11",
-      "last_item_at": "2026-10-09 14:01:11",
+      "last_run_at": "2026-10-09 21:52:01",
+      "last_success_at": "2026-10-09 21:52:01",
+      "last_item_at": "2026-10-09 21:52:01",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 72,
+      "entries": 84,
       "stale": false,
       "error_code": null,
       "history": [
@@ -742,6 +778,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 730
         }
       ]
     },
@@ -818,6 +859,10 @@
         },
         {
           "t": "2026-10-09T20:01:00.464Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
           "s": "ok"
         }
       ]
@@ -904,6 +949,10 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok",
           "ms": 1735
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok"
         }
       ]
     },
@@ -994,6 +1043,11 @@
           "t": "2026-10-09T20:01:00.464Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -1002,13 +1056,13 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-09 16:01:37",
-      "last_success_at": "2026-10-09 16:01:37",
-      "last_item_at": "2026-10-09 16:01:37",
+      "last_run_at": "2026-10-09 21:52:00",
+      "last_success_at": "2026-10-09 21:52:00",
+      "last_item_at": "2026-10-09 21:52:00",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 40,
+      "entries": 42,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1082,6 +1136,11 @@
         {
           "t": "2026-10-09T20:01:00.464Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-09T21:52:04.385Z",
+          "s": "ok",
+          "ms": 2907
         }
       ]
     }
