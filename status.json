@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-10T12:00:54.099Z",
+  "generated_at": "2026-10-10T13:31:46.659Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -119,6 +119,10 @@
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok",
           "ms": 779
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -235,6 +239,10 @@
         },
         {
           "t": "2026-10-10T12:00:54.817Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
           "s": "ok"
         }
       ]
@@ -356,6 +364,10 @@
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok",
           "ms": 755
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -476,6 +488,10 @@
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok",
           "ms": 725
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -592,6 +608,10 @@
         },
         {
           "t": "2026-10-10T12:00:54.817Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
           "s": "ok"
         }
       ]
@@ -710,6 +730,10 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -826,6 +850,10 @@
         },
         {
           "t": "2026-10-10T12:00:54.817Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
           "s": "ok"
         }
       ]
@@ -944,6 +972,10 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -1060,6 +1092,10 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
         }
       ]
     },
@@ -1068,7 +1104,7 @@
       "name": "Actions relay (ФСВПС и др.)",
       "enabled": 1,
       "interval_minutes": 0,
-      "last_run_at": "2026-10-10 06:04:34",
+      "last_run_at": "2026-10-10 12:45:32",
       "last_success_at": "2026-10-08 12:16:52",
       "last_item_at": "2026-10-09 22:46:04",
       "last_status": "ok",
@@ -1169,6 +1205,32 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-amr-animals",
+      "name": "PubMed: antimicrobial resistance in animals",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:45",
+      "last_success_at": "2026-10-10 13:31:45",
+      "last_item_at": "2026-10-10 13:31:45",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
         }
       ]
     },
@@ -1286,6 +1348,10 @@
         },
         {
           "t": "2026-10-10T12:00:54.817Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
           "s": "ok"
         }
       ]
@@ -1415,6 +1481,120 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok"
+        }
+      ]
+    },
+    {
+      "id": "pubmed-equine-medicine",
+      "name": "PubMed: equine medicine",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:43",
+      "last_success_at": "2026-10-10 13:31:43",
+      "last_item_at": "2026-10-10 13:31:43",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-feline-medicine",
+      "name": "PubMed: feline medicine",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:43",
+      "last_success_at": "2026-10-10 13:31:43",
+      "last_item_at": "2026-10-10 13:31:43",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-anesthesia",
+      "name": "PubMed: veterinary anesthesia and analgesia",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:44",
+      "last_success_at": "2026-10-10 13:31:44",
+      "last_item_at": "2026-10-10 13:31:44",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 5,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-dermatology",
+      "name": "PubMed: veterinary dermatology",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:44",
+      "last_success_at": "2026-10-10 13:31:44",
+      "last_item_at": "2026-10-10 13:31:44",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-imaging",
+      "name": "PubMed: veterinary diagnostic imaging",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:45",
+      "last_success_at": "2026-10-10 13:31:45",
+      "last_item_at": "2026-10-10 13:31:45",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 5,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
         }
       ]
     },
@@ -1423,9 +1603,9 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 08:01:21",
-      "last_success_at": "2026-10-10 08:01:21",
-      "last_item_at": "2026-10-10 08:01:21",
+      "last_run_at": "2026-10-10 13:31:46",
+      "last_success_at": "2026-10-10 13:31:46",
+      "last_item_at": "2026-10-10 13:31:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1538,6 +1718,77 @@
         {
           "t": "2026-10-10T12:00:54.817Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-oncology",
+      "name": "PubMed: veterinary oncology",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:42",
+      "last_success_at": "2026-10-10 13:31:42",
+      "last_item_at": "2026-10-10 13:31:42",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-parasitology",
+      "name": "PubMed: veterinary parasitology",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:45",
+      "last_success_at": "2026-10-10 13:31:45",
+      "last_item_at": "2026-10-10 13:31:45",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
+        }
+      ]
+    },
+    {
+      "id": "pubmed-vet-surgery",
+      "name": "PubMed: veterinary surgery",
+      "enabled": 1,
+      "interval_minutes": 720,
+      "last_run_at": "2026-10-10 13:31:42",
+      "last_success_at": "2026-10-10 13:31:42",
+      "last_item_at": "2026-10-10 13:31:42",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 6,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-10T13:31:46.934Z",
+          "s": "ok",
+          "ms": 2739
         }
       ]
     }
