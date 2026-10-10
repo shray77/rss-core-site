@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-10T13:31:46.659Z",
+  "generated_at": "2026-10-10T14:01:38.115Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -131,13 +131,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 10:01:32",
-      "last_success_at": "2026-10-10 10:01:32",
-      "last_item_at": "2026-10-10 10:01:32",
+      "last_run_at": "2026-10-10 14:01:37",
+      "last_success_at": "2026-10-10 14:01:37",
+      "last_item_at": "2026-10-10 14:01:37",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 156,
+      "entries": 168,
       "stale": false,
       "error_code": null,
       "history": [
@@ -243,7 +243,8 @@
         },
         {
           "t": "2026-10-10T13:31:46.934Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 892
         }
       ]
     },
@@ -500,13 +501,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 08:01:22",
-      "last_success_at": "2026-10-10 08:01:22",
-      "last_item_at": "2026-10-10 08:01:22",
+      "last_run_at": "2026-10-10 14:01:34",
+      "last_success_at": "2026-10-10 14:01:34",
+      "last_item_at": "2026-10-10 14:01:34",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 52,
+      "entries": 55,
       "stale": false,
       "error_code": null,
       "history": [
@@ -612,7 +613,8 @@
         },
         {
           "t": "2026-10-10T13:31:46.934Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 857
         }
       ]
     },
@@ -621,13 +623,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 08:01:24",
-      "last_success_at": "2026-10-10 08:01:24",
-      "last_item_at": "2026-10-10 08:01:24",
+      "last_run_at": "2026-10-10 14:01:36",
+      "last_success_at": "2026-10-10 14:01:36",
+      "last_item_at": "2026-10-10 14:01:36",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 131,
+      "entries": 143,
       "stale": false,
       "error_code": null,
       "history": [
@@ -733,7 +735,8 @@
         },
         {
           "t": "2026-10-10T13:31:46.934Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 923
         }
       ]
     },
@@ -742,13 +745,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 08:01:24",
-      "last_success_at": "2026-10-10 08:01:24",
-      "last_item_at": "2026-10-10 08:01:24",
+      "last_run_at": "2026-10-10 14:01:35",
+      "last_success_at": "2026-10-10 14:01:35",
+      "last_item_at": "2026-10-10 14:01:35",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 118,
+      "entries": 129,
       "stale": false,
       "error_code": null,
       "history": [
@@ -854,7 +857,8 @@
         },
         {
           "t": "2026-10-10T13:31:46.934Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 786
         }
       ]
     },
@@ -863,13 +867,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-10 08:01:23",
-      "last_success_at": "2026-10-10 08:01:23",
-      "last_item_at": "2026-10-10 08:01:23",
+      "last_run_at": "2026-10-10 14:01:34",
+      "last_success_at": "2026-10-10 14:01:34",
+      "last_item_at": "2026-10-10 14:01:34",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 124,
+      "entries": 134,
       "stale": false,
       "error_code": null,
       "history": [
@@ -975,7 +979,8 @@
         },
         {
           "t": "2026-10-10T13:31:46.934Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 885
         }
       ]
     },
