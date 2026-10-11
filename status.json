@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-11T15:36:03.866Z",
+  "generated_at": "2026-10-11T16:01:41.641Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-11 10:01:25",
-      "last_success_at": "2026-10-11 10:01:25",
-      "last_item_at": "2026-10-11 10:01:25",
+      "last_run_at": "2026-10-11 16:01:41",
+      "last_success_at": "2026-10-11 16:01:41",
+      "last_item_at": "2026-10-11 16:01:41",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 222,
+      "entries": 231,
       "stale": false,
       "error_code": null,
       "history": [
@@ -184,7 +184,8 @@
         },
         {
           "t": "2026-10-11T15:36:04.117Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 807
         }
       ]
     },
