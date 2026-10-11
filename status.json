@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-11T08:01:23.938Z",
+  "generated_at": "2026-10-11T08:43:14.755Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -176,8 +176,8 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:36",
-      "last_success_at": "2026-10-11 04:01:36",
+      "last_run_at": "2026-10-11 08:43:14",
+      "last_success_at": "2026-10-11 08:43:14",
       "last_item_at": "2026-10-11 04:01:36",
       "last_status": "ok",
       "last_error": null,
@@ -332,7 +332,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 238
         }
       ]
     },
@@ -679,13 +680,13 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:34",
-      "last_success_at": "2026-10-11 04:01:34",
-      "last_item_at": "2026-10-11 04:01:34",
+      "last_run_at": "2026-10-11 08:43:13",
+      "last_success_at": "2026-10-11 08:43:13",
+      "last_item_at": "2026-10-11 08:43:13",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 70,
+      "entries": 82,
       "stale": false,
       "error_code": null,
       "history": [
@@ -835,7 +836,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 629
         }
       ]
     },
@@ -844,8 +846,8 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:37",
-      "last_success_at": "2026-10-11 04:01:37",
+      "last_run_at": "2026-10-11 08:43:14",
+      "last_success_at": "2026-10-11 08:43:14",
       "last_item_at": "2026-10-11 04:01:37",
       "last_status": "ok",
       "last_error": null,
@@ -1000,7 +1002,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 232
         }
       ]
     },
@@ -1009,8 +1012,8 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:35",
-      "last_success_at": "2026-10-11 04:01:35",
+      "last_run_at": "2026-10-11 08:43:14",
+      "last_success_at": "2026-10-11 08:43:14",
       "last_item_at": "2026-10-11 04:01:35",
       "last_status": "ok",
       "last_error": null,
@@ -1165,7 +1168,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 225
         }
       ]
     },
@@ -1174,13 +1178,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:34",
-      "last_success_at": "2026-10-11 04:01:34",
-      "last_item_at": "2026-10-11 04:01:34",
+      "last_run_at": "2026-10-11 08:43:13",
+      "last_success_at": "2026-10-11 08:43:13",
+      "last_item_at": "2026-10-11 08:43:13",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 164,
+      "entries": 174,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1330,7 +1334,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 605
         }
       ]
     },
@@ -2369,9 +2374,9 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-11 04:01:33",
-      "last_success_at": "2026-10-11 04:01:33",
-      "last_item_at": "2026-10-11 04:01:33",
+      "last_run_at": "2026-10-11 08:43:12",
+      "last_success_at": "2026-10-11 08:43:12",
+      "last_item_at": "2026-10-11 08:43:12",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2531,7 +2536,8 @@
         },
         {
           "t": "2026-10-11T08:01:24.669Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1391
         }
       ]
     },
