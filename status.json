@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-12T05:48:33.373Z",
+  "generated_at": "2026-10-12T06:01:32.507Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1089,13 +1089,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-12 00:00:54",
-      "last_success_at": "2026-10-12 00:00:54",
-      "last_item_at": "2026-10-12 00:00:54",
+      "last_run_at": "2026-10-12 06:01:31",
+      "last_success_at": "2026-10-12 06:01:31",
+      "last_item_at": "2026-10-12 06:01:31",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 215,
+      "entries": 227,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1293,7 +1293,8 @@
         },
         {
           "t": "2026-10-12T05:48:33.757Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1944
         }
       ]
     },
