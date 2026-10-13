@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-13T22:01:27.745Z",
+  "generated_at": "2026-10-13T23:06:25.584Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -17,10 +17,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok",
@@ -229,6 +225,10 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -237,21 +237,16 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:46",
-      "last_success_at": "2026-10-13 18:12:46",
-      "last_item_at": "2026-10-13 18:12:46",
+      "last_run_at": "2026-10-13 23:06:22",
+      "last_success_at": "2026-10-13 23:06:22",
+      "last_item_at": "2026-10-13 23:06:22",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 332,
+      "entries": 343,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok",
-          "ms": 626
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -457,6 +452,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 750
         }
       ]
     },
@@ -465,20 +465,16 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-13 20:00:51",
-      "last_success_at": "2026-10-13 20:00:51",
-      "last_item_at": "2026-10-13 20:00:51",
+      "last_run_at": "2026-10-13 23:06:25",
+      "last_success_at": "2026-10-13 23:06:25",
+      "last_item_at": "2026-10-13 23:06:25",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 131,
+      "entries": 142,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok",
@@ -687,6 +683,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 677
         }
       ]
     },
@@ -695,20 +696,16 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-13 20:00:51",
-      "last_success_at": "2026-10-13 20:00:51",
-      "last_item_at": "2026-10-13 20:00:51",
+      "last_run_at": "2026-10-13 23:06:24",
+      "last_success_at": "2026-10-13 23:06:24",
+      "last_item_at": "2026-10-13 23:06:24",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 266,
+      "entries": 276,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok",
@@ -917,6 +914,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 638
         }
       ]
     },
@@ -925,21 +927,16 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:46",
-      "last_success_at": "2026-10-13 18:12:46",
-      "last_item_at": "2026-10-13 18:12:46",
+      "last_run_at": "2026-10-13 23:06:21",
+      "last_success_at": "2026-10-13 23:06:21",
+      "last_item_at": "2026-10-13 23:06:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 155,
+      "entries": 166,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok",
-          "ms": 693
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -1144,6 +1141,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 694
         }
       ]
     },
@@ -1152,21 +1154,16 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:45",
-      "last_success_at": "2026-10-13 18:12:45",
-      "last_item_at": "2026-10-13 18:12:45",
+      "last_run_at": "2026-10-13 23:06:21",
+      "last_success_at": "2026-10-13 23:06:21",
+      "last_item_at": "2026-10-13 23:06:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 299,
+      "entries": 311,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok",
-          "ms": 759
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -1370,6 +1367,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 826
         }
       ]
     },
@@ -1378,21 +1380,16 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:48",
-      "last_success_at": "2026-10-13 18:12:48",
-      "last_item_at": "2026-10-13 18:12:48",
+      "last_run_at": "2026-10-13 23:06:24",
+      "last_success_at": "2026-10-13 23:06:24",
+      "last_item_at": "2026-10-13 23:06:24",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 289,
+      "entries": 301,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok",
-          "ms": 697
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -1597,6 +1594,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 755
         }
       ]
     },
@@ -1605,21 +1607,16 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:47",
-      "last_success_at": "2026-10-13 18:12:47",
-      "last_item_at": "2026-10-13 18:12:47",
+      "last_run_at": "2026-10-13 23:06:23",
+      "last_success_at": "2026-10-13 23:06:23",
+      "last_item_at": "2026-10-13 23:06:23",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 284,
+      "entries": 296,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok",
-          "ms": 817
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -1824,6 +1821,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 677
         }
       ]
     },
@@ -1832,20 +1834,16 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-13 16:02:04",
-      "last_success_at": "2026-10-13 16:02:04",
-      "last_item_at": "2026-10-13 16:02:04",
+      "last_run_at": "2026-10-13 23:06:20",
+      "last_success_at": "2026-10-13 23:06:20",
+      "last_item_at": "2026-10-13 23:06:20",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 230,
+      "entries": 242,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok",
@@ -2046,6 +2044,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 675
         }
       ]
     },
@@ -2054,20 +2057,16 @@
       "name": "Actions relay (ФСВПС и др.)",
       "enabled": 1,
       "interval_minutes": 0,
-      "last_run_at": "2026-10-13 14:25:24",
+      "last_run_at": "2026-10-13 22:57:32",
       "last_success_at": "2026-10-08 12:16:52",
-      "last_item_at": "2026-10-13 14:25:24",
+      "last_item_at": "2026-10-13 22:57:32",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 95,
+      "entries": 106,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -2254,6 +2253,10 @@
         },
         {
           "t": "2026-10-13T22:01:28.556Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
           "s": "ok"
         }
       ]
@@ -2459,6 +2462,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -2477,10 +2484,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "ok"
@@ -2674,6 +2677,10 @@
         },
         {
           "t": "2026-10-13T22:01:28.556Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
           "s": "ok"
         }
       ]
@@ -2694,11 +2701,6 @@
       "error_code": null,
       "history": [
         {
-          "t": "2026-10-10T01:43:34.266Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
-        {
           "t": "2026-10-10T04:01:02.429Z",
           "s": "err",
           "e": "rate_limit"
@@ -2893,6 +2895,10 @@
         },
         {
           "t": "2026-10-13T22:01:28.556Z",
+          "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
           "s": "ok"
         }
       ]
@@ -3098,6 +3104,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -3308,6 +3318,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -3512,6 +3526,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -3716,6 +3734,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -3724,13 +3746,13 @@
       "name": "PubMed: veterinary diagnostic imaging",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-13 10:01:09",
-      "last_success_at": "2026-10-13 10:01:09",
-      "last_item_at": "2026-10-13 10:01:09",
+      "last_run_at": "2026-10-13 23:06:19",
+      "last_success_at": "2026-10-13 23:06:19",
+      "last_item_at": "2026-10-13 23:06:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 12,
+      "entries": 13,
       "stale": false,
       "error_code": null,
       "history": [
@@ -3907,6 +3929,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 420
         }
       ]
     },
@@ -3915,20 +3942,16 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-13 18:12:44",
-      "last_success_at": "2026-10-13 18:12:44",
-      "last_item_at": "2026-10-13 18:12:44",
+      "last_run_at": "2026-10-13 23:06:19",
+      "last_success_at": "2026-10-13 23:06:19",
+      "last_item_at": "2026-10-13 23:06:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 64,
+      "entries": 67,
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-10-10T04:01:02.429Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-10T06:01:13.456Z",
           "s": "ok"
@@ -4135,6 +4158,11 @@
         {
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok",
+          "ms": 420
         }
       ]
     },
@@ -4345,6 +4373,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -4549,6 +4581,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     },
@@ -4753,6 +4789,10 @@
           "t": "2026-10-13T22:01:28.556Z",
           "s": "ok",
           "ms": 3877
+        },
+        {
+          "t": "2026-10-13T23:06:25.773Z",
+          "s": "ok"
         }
       ]
     }
