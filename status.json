@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-14T21:36:40.122Z",
+  "generated_at": "2026-10-14T22:00:54.058Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1377,13 +1377,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-14 17:58:45",
-      "last_success_at": "2026-10-14 17:58:45",
-      "last_item_at": "2026-10-14 17:58:45",
+      "last_run_at": "2026-10-14 22:00:53",
+      "last_success_at": "2026-10-14 22:00:53",
+      "last_item_at": "2026-10-14 22:00:53",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 337,
+      "entries": 349,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1594,7 +1594,8 @@
         },
         {
           "t": "2026-10-14T21:36:40.358Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 783
         }
       ]
     },
@@ -2052,13 +2053,13 @@
       "name": "Actions relay (ФСВПС и др.)",
       "enabled": 1,
       "interval_minutes": 0,
-      "last_run_at": "2026-10-14 17:22:51",
+      "last_run_at": "2026-10-14 21:49:49",
       "last_success_at": "2026-10-08 12:16:52",
-      "last_item_at": "2026-10-14 12:09:49",
+      "last_item_at": "2026-10-14 21:49:49",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 113,
+      "entries": 125,
       "stale": false,
       "error_code": null,
       "history": [
