@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-17T09:15:45.334Z",
+  "generated_at": "2026-10-17T10:01:15.017Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -2503,13 +2503,13 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-16 22:00:22",
-      "last_success_at": "2026-10-16 22:00:22",
-      "last_item_at": "2026-10-16 22:00:22",
+      "last_run_at": "2026-10-17 10:01:14",
+      "last_success_at": "2026-10-17 10:01:14",
+      "last_item_at": "2026-10-17 10:01:14",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 19,
+      "entries": 20,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2727,7 +2727,8 @@
         },
         {
           "t": "2026-10-17T09:15:45.506Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 551
         }
       ]
     },
@@ -2736,20 +2737,16 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-16 22:00:23",
+      "last_run_at": "2026-10-17 10:01:14",
       "last_success_at": "2026-10-16 22:00:23",
       "last_item_at": "2026-10-16 22:00:23",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 9,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-10-13T11:03:04.151Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-13T14:01:51.987Z",
           "s": "ok",
@@ -2955,6 +2952,11 @@
         {
           "t": "2026-10-17T09:15:45.506Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-17T10:01:15.504Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
