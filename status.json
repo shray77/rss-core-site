@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-17T19:18:41.610Z",
+  "generated_at": "2026-10-17T20:00:59.637Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-17 16:38:22",
-      "last_success_at": "2026-10-17 16:38:22",
-      "last_item_at": "2026-10-17 16:38:22",
+      "last_run_at": "2026-10-17 20:00:59",
+      "last_success_at": "2026-10-17 20:00:59",
+      "last_item_at": "2026-10-17 20:00:59",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 513,
+      "entries": 525,
       "stale": false,
       "error_code": null,
       "history": [
@@ -228,7 +228,8 @@
         },
         {
           "t": "2026-10-17T19:18:41.756Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 348
         }
       ]
     },
@@ -465,13 +466,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-17 16:38:21",
-      "last_success_at": "2026-10-17 16:38:21",
-      "last_item_at": "2026-10-17 16:38:21",
+      "last_run_at": "2026-10-17 20:00:58",
+      "last_success_at": "2026-10-17 20:00:58",
+      "last_item_at": "2026-10-17 20:00:58",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 230,
+      "entries": 240,
       "stale": false,
       "error_code": null,
       "history": [
@@ -686,7 +687,8 @@
         },
         {
           "t": "2026-10-17T19:18:41.756Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 413
         }
       ]
     },
@@ -695,13 +697,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-17 16:38:22",
-      "last_success_at": "2026-10-17 16:38:22",
-      "last_item_at": "2026-10-17 16:38:22",
+      "last_run_at": "2026-10-17 20:00:59",
+      "last_success_at": "2026-10-17 20:00:59",
+      "last_item_at": "2026-10-17 20:00:59",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 446,
+      "entries": 454,
       "stale": false,
       "error_code": null,
       "history": [
@@ -917,7 +919,8 @@
         },
         {
           "t": "2026-10-17T19:18:41.756Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 337
         }
       ]
     },
