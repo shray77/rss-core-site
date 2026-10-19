@@ -1,19 +1,19 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-19T22:01:02.048Z",
+  "generated_at": "2026-10-19T22:17:44.011Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-19 17:44:55",
-      "last_success_at": "2026-10-19 17:44:55",
-      "last_item_at": "2026-10-19 17:44:55",
+      "last_run_at": "2026-10-19 22:17:43",
+      "last_success_at": "2026-10-19 22:17:43",
+      "last_item_at": "2026-10-19 22:17:43",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 633,
+      "entries": 645,
       "stale": false,
       "error_code": null,
       "history": [
@@ -228,7 +228,8 @@
         },
         {
           "t": "2026-10-19T22:01:02.434Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 618
         }
       ]
     },
@@ -4762,9 +4763,9 @@
       "name": "PubMed: veterinary surgery",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-19 10:01:04",
-      "last_success_at": "2026-10-19 10:01:04",
-      "last_item_at": "2026-10-19 10:01:04",
+      "last_run_at": "2026-10-19 22:17:43",
+      "last_success_at": "2026-10-19 22:17:43",
+      "last_item_at": "2026-10-19 22:17:43",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4974,7 +4975,8 @@
         },
         {
           "t": "2026-10-19T22:01:02.434Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 964
         }
       ]
     }
