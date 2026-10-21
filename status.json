@@ -1,15 +1,15 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-21T19:34:24.713Z",
+  "generated_at": "2026-10-21T20:00:09.153Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-21 15:09:58",
-      "last_success_at": "2026-10-21 15:09:58",
-      "last_item_at": "2026-10-21 15:09:58",
+      "last_run_at": "2026-10-21 20:00:08",
+      "last_success_at": "2026-10-21 20:00:08",
+      "last_item_at": "2026-10-21 20:00:08",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -228,7 +228,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 636
         }
       ]
     },
@@ -237,9 +238,9 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-21 14:00:14",
-      "last_success_at": "2026-10-21 14:00:14",
-      "last_item_at": "2026-10-21 14:00:14",
+      "last_run_at": "2026-10-21 20:00:04",
+      "last_success_at": "2026-10-21 20:00:04",
+      "last_item_at": "2026-10-21 20:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -454,7 +455,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 722
         }
       ]
     },
@@ -463,9 +465,9 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-21 15:09:57",
-      "last_success_at": "2026-10-21 15:09:57",
-      "last_item_at": "2026-10-21 15:09:57",
+      "last_run_at": "2026-10-21 20:00:07",
+      "last_success_at": "2026-10-21 20:00:07",
+      "last_item_at": "2026-10-21 20:00:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -685,7 +687,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 657
         }
       ]
     },
@@ -694,9 +697,9 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-21 15:09:57",
-      "last_success_at": "2026-10-21 15:09:57",
-      "last_item_at": "2026-10-21 15:09:57",
+      "last_run_at": "2026-10-21 20:00:07",
+      "last_success_at": "2026-10-21 20:00:07",
+      "last_item_at": "2026-10-21 20:00:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -916,7 +919,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 656
         }
       ]
     },
@@ -925,9 +929,9 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-21 14:00:13",
-      "last_success_at": "2026-10-21 14:00:13",
-      "last_item_at": "2026-10-21 14:00:13",
+      "last_run_at": "2026-10-21 20:00:03",
+      "last_success_at": "2026-10-21 20:00:03",
+      "last_item_at": "2026-10-21 20:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1142,7 +1146,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 639
         }
       ]
     },
@@ -1151,13 +1156,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-21 14:00:17",
-      "last_success_at": "2026-10-21 14:00:17",
-      "last_item_at": "2026-10-21 14:00:17",
+      "last_run_at": "2026-10-21 20:00:06",
+      "last_success_at": "2026-10-21 20:00:06",
+      "last_item_at": "2026-10-21 20:00:06",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 612,
+      "entries": 615,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1368,7 +1373,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 691
         }
       ]
     },
@@ -1377,13 +1383,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-21 14:00:16",
-      "last_success_at": "2026-10-21 14:00:16",
-      "last_item_at": "2026-10-21 14:00:16",
+      "last_run_at": "2026-10-21 20:00:05",
+      "last_success_at": "2026-10-21 20:00:05",
+      "last_item_at": "2026-10-21 20:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 601,
+      "entries": 603,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1594,7 +1600,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 874
         }
       ]
     },
@@ -1603,9 +1610,9 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-21 14:00:15",
-      "last_success_at": "2026-10-21 14:00:15",
-      "last_item_at": "2026-10-21 14:00:15",
+      "last_run_at": "2026-10-21 20:00:05",
+      "last_success_at": "2026-10-21 20:00:05",
+      "last_item_at": "2026-10-21 20:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1820,7 +1827,8 @@
         },
         {
           "t": "2026-10-21T19:34:24.974Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 678
         }
       ]
     },
