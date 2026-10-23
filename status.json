@@ -1,15 +1,15 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-23T09:59:04.123Z",
+  "generated_at": "2026-10-23T10:00:07.615Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-23 06:00:08",
-      "last_success_at": "2026-10-23 06:00:08",
-      "last_item_at": "2026-10-23 06:00:08",
+      "last_run_at": "2026-10-23 10:00:07",
+      "last_success_at": "2026-10-23 10:00:07",
+      "last_item_at": "2026-10-23 10:00:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -229,7 +229,8 @@
         },
         {
           "t": "2026-10-23T09:59:04.338Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 637
         }
       ]
     },
@@ -238,13 +239,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 04:00:07",
-      "last_success_at": "2026-10-23 04:00:07",
-      "last_item_at": "2026-10-23 04:00:07",
+      "last_run_at": "2026-10-23 10:00:03",
+      "last_success_at": "2026-10-23 10:00:03",
+      "last_item_at": "2026-10-23 10:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 657,
+      "entries": 659,
       "stale": false,
       "error_code": null,
       "history": [
@@ -454,7 +455,8 @@
         },
         {
           "t": "2026-10-23T09:59:04.338Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 915
         }
       ]
     },
@@ -1153,13 +1155,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 04:00:08",
-      "last_success_at": "2026-10-23 04:00:08",
-      "last_item_at": "2026-10-23 04:00:08",
+      "last_run_at": "2026-10-23 10:00:06",
+      "last_success_at": "2026-10-23 10:00:06",
+      "last_item_at": "2026-10-23 10:00:06",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 621,
+      "entries": 623,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1369,7 +1371,8 @@
         },
         {
           "t": "2026-10-23T09:59:04.338Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1132
         }
       ]
     },
@@ -1378,9 +1381,9 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 04:00:08",
-      "last_success_at": "2026-10-23 04:00:08",
-      "last_item_at": "2026-10-23 04:00:08",
+      "last_run_at": "2026-10-23 10:00:05",
+      "last_success_at": "2026-10-23 10:00:05",
+      "last_item_at": "2026-10-23 10:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1594,7 +1597,8 @@
         },
         {
           "t": "2026-10-23T09:59:04.338Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 796
         }
       ]
     },
@@ -1603,9 +1607,9 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 04:00:07",
-      "last_success_at": "2026-10-23 04:00:07",
-      "last_item_at": "2026-10-23 04:00:07",
+      "last_run_at": "2026-10-23 10:00:04",
+      "last_success_at": "2026-10-23 10:00:04",
+      "last_item_at": "2026-10-23 10:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1819,7 +1823,8 @@
         },
         {
           "t": "2026-10-23T09:59:04.338Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 750
         }
       ]
     },
