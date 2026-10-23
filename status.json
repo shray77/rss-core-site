@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-23T14:00:15.215Z",
+  "generated_at": "2026-10-23T14:59:23.970Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -239,13 +239,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 10:00:03",
-      "last_success_at": "2026-10-23 10:00:03",
-      "last_item_at": "2026-10-23 10:00:03",
+      "last_run_at": "2026-10-23 14:59:20",
+      "last_success_at": "2026-10-23 14:59:20",
+      "last_item_at": "2026-10-23 14:59:20",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 659,
+      "entries": 660,
       "stale": false,
       "error_code": null,
       "history": [
@@ -456,7 +456,8 @@
         },
         {
           "t": "2026-10-23T14:00:15.574Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 786
         }
       ]
     },
@@ -1156,9 +1157,9 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 10:00:06",
-      "last_success_at": "2026-10-23 10:00:06",
-      "last_item_at": "2026-10-23 10:00:06",
+      "last_run_at": "2026-10-23 14:59:23",
+      "last_success_at": "2026-10-23 14:59:23",
+      "last_item_at": "2026-10-23 14:59:23",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1373,7 +1374,8 @@
         },
         {
           "t": "2026-10-23T14:00:15.574Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 789
         }
       ]
     },
@@ -1382,13 +1384,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 10:00:05",
-      "last_success_at": "2026-10-23 10:00:05",
-      "last_item_at": "2026-10-23 10:00:05",
+      "last_run_at": "2026-10-23 14:59:22",
+      "last_success_at": "2026-10-23 14:59:22",
+      "last_item_at": "2026-10-23 14:59:22",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 612,
+      "entries": 613,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1599,7 +1601,8 @@
         },
         {
           "t": "2026-10-23T14:00:15.574Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1329
         }
       ]
     },
@@ -1608,13 +1611,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-23 10:00:04",
-      "last_success_at": "2026-10-23 10:00:04",
-      "last_item_at": "2026-10-23 10:00:04",
+      "last_run_at": "2026-10-23 14:59:21",
+      "last_success_at": "2026-10-23 14:59:21",
+      "last_item_at": "2026-10-23 14:59:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 607,
+      "entries": 608,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1825,7 +1828,8 @@
         },
         {
           "t": "2026-10-23T14:00:15.574Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 704
         }
       ]
     },
@@ -2494,21 +2498,16 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-23 02:00:08",
-      "last_success_at": "2026-10-21 22:00:09",
-      "last_item_at": "2026-10-21 22:00:09",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=bovine%20mastitis&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 2,
-      "entries": 23,
+      "last_run_at": "2026-10-23 14:59:19",
+      "last_success_at": "2026-10-23 14:59:19",
+      "last_item_at": "2026-10-23 14:59:19",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 24,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-19T16:01:05.091Z",
-          "s": "ok",
-          "ms": 3251
-        },
         {
           "t": "2026-10-19T17:44:56.220Z",
           "s": "ok"
@@ -2720,6 +2719,11 @@
           "t": "2026-10-23T14:00:15.574Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-23T14:59:24.390Z",
+          "s": "ok",
+          "ms": 550
         }
       ]
     },
@@ -2728,21 +2732,16 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-23 02:00:13",
-      "last_success_at": "2026-10-22 12:00:13",
-      "last_item_at": "2026-10-22 12:00:13",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
+      "last_run_at": "2026-10-23 14:59:20",
+      "last_success_at": "2026-10-23 14:59:20",
+      "last_item_at": "2026-10-23 14:59:20",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
       "entries": 9,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-19T16:01:05.091Z",
-          "s": "ok",
-          "ms": 3251
-        },
         {
           "t": "2026-10-19T17:44:56.220Z",
           "s": "ok"
@@ -2948,6 +2947,11 @@
           "t": "2026-10-23T14:00:15.574Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-23T14:59:24.390Z",
+          "s": "ok",
+          "ms": 550
         }
       ]
     },
