@@ -1,15 +1,15 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-23T22:00:17.290Z",
+  "generated_at": "2026-10-23T22:36:19.698Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-23 18:00:03",
-      "last_success_at": "2026-10-23 18:00:03",
-      "last_item_at": "2026-10-23 18:00:03",
+      "last_run_at": "2026-10-23 22:36:17",
+      "last_success_at": "2026-10-23 22:36:17",
+      "last_item_at": "2026-10-23 22:36:17",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -229,7 +229,8 @@
         },
         {
           "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 513
         }
       ]
     },
@@ -464,13 +465,13 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-23 19:08:04",
-      "last_success_at": "2026-10-23 19:08:04",
-      "last_item_at": "2026-10-23 19:08:04",
+      "last_run_at": "2026-10-23 22:36:19",
+      "last_success_at": "2026-10-23 22:36:19",
+      "last_item_at": "2026-10-23 22:36:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 370,
+      "entries": 372,
       "stale": false,
       "error_code": null,
       "history": [
@@ -687,7 +688,8 @@
         },
         {
           "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 559
         }
       ]
     },
@@ -696,13 +698,13 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-23 19:08:03",
-      "last_success_at": "2026-10-23 19:08:03",
-      "last_item_at": "2026-10-23 19:08:03",
+      "last_run_at": "2026-10-23 22:36:18",
+      "last_success_at": "2026-10-23 22:36:18",
+      "last_item_at": "2026-10-23 22:36:18",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 585,
+      "entries": 587,
       "stale": false,
       "error_code": null,
       "history": [
@@ -919,7 +921,8 @@
         },
         {
           "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 928
         }
       ]
     },
@@ -1832,13 +1835,13 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-23 14:00:11",
-      "last_success_at": "2026-10-23 14:00:11",
-      "last_item_at": "2026-10-23 14:00:11",
+      "last_run_at": "2026-10-23 22:36:17",
+      "last_success_at": "2026-10-23 22:36:17",
+      "last_item_at": "2026-10-23 22:36:17",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 482,
+      "entries": 483,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2045,7 +2048,8 @@
         },
         {
           "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 593
         }
       ]
     },
