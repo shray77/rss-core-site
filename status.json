@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-24T14:00:04.379Z",
+  "generated_at": "2026-10-24T14:27:55.243Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -239,9 +239,9 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:12",
-      "last_success_at": "2026-10-24 10:00:12",
-      "last_item_at": "2026-10-24 10:00:12",
+      "last_run_at": "2026-10-24 14:27:52",
+      "last_success_at": "2026-10-24 14:27:52",
+      "last_item_at": "2026-10-24 14:27:52",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -457,7 +457,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 808
         }
       ]
     },
@@ -932,9 +933,9 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:11",
-      "last_success_at": "2026-10-24 10:00:11",
-      "last_item_at": "2026-10-24 10:00:11",
+      "last_run_at": "2026-10-24 14:27:51",
+      "last_success_at": "2026-10-24 14:27:51",
+      "last_item_at": "2026-10-24 14:27:51",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1150,7 +1151,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 754
         }
       ]
     },
@@ -1159,13 +1161,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:16",
-      "last_success_at": "2026-10-24 10:00:16",
-      "last_item_at": "2026-10-24 10:00:16",
+      "last_run_at": "2026-10-24 14:27:54",
+      "last_success_at": "2026-10-24 14:27:54",
+      "last_item_at": "2026-10-24 14:27:54",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 627,
+      "entries": 628,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1377,7 +1379,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 862
         }
       ]
     },
@@ -1386,13 +1389,13 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:14",
-      "last_success_at": "2026-10-24 10:00:14",
-      "last_item_at": "2026-10-24 10:00:14",
+      "last_run_at": "2026-10-24 14:27:54",
+      "last_success_at": "2026-10-24 14:27:54",
+      "last_item_at": "2026-10-24 14:27:54",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 620,
+      "entries": 621,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1604,7 +1607,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 756
         }
       ]
     },
@@ -1613,9 +1617,9 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:13",
-      "last_success_at": "2026-10-24 10:00:13",
-      "last_item_at": "2026-10-24 10:00:13",
+      "last_run_at": "2026-10-24 14:27:53",
+      "last_success_at": "2026-10-24 14:27:53",
+      "last_item_at": "2026-10-24 14:27:53",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1831,7 +1835,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 623
         }
       ]
     },
@@ -4069,9 +4074,9 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-24 10:00:10",
-      "last_success_at": "2026-10-24 10:00:10",
-      "last_item_at": "2026-10-24 10:00:10",
+      "last_run_at": "2026-10-24 14:27:51",
+      "last_success_at": "2026-10-24 14:27:51",
+      "last_item_at": "2026-10-24 14:27:51",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4297,7 +4302,8 @@
         },
         {
           "t": "2026-10-24T14:00:04.784Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1062
         }
       ]
     },
