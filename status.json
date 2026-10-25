@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-25T16:00:03.804Z",
+  "generated_at": "2026-10-25T16:04:46.320Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1845,9 +1845,9 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-25 10:00:10",
-      "last_success_at": "2026-10-25 10:00:10",
-      "last_item_at": "2026-10-25 10:00:10",
+      "last_run_at": "2026-10-25 16:04:46",
+      "last_success_at": "2026-10-25 16:04:46",
+      "last_item_at": "2026-10-25 16:04:46",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2058,7 +2058,52 @@
         },
         {
           "t": "2026-10-25T16:00:04.113Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 532
+        }
+      ]
+    },
+    {
+      "id": "eupmc-vet-agr",
+      "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-25 16:04:45",
+      "last_success_at": "2026-10-25 16:04:45",
+      "last_item_at": "2026-10-25 16:04:45",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 11,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-25T16:04:46.487Z",
+          "s": "ok",
+          "ms": 914
+        }
+      ]
+    },
+    {
+      "id": "eupmc-vet-preprints",
+      "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
+      "enabled": 1,
+      "interval_minutes": 240,
+      "last_run_at": "2026-10-25 16:04:44",
+      "last_success_at": "2026-10-25 16:04:44",
+      "last_item_at": "2026-10-25 16:04:44",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 12,
+      "stale": false,
+      "error_code": null,
+      "history": [
+        {
+          "t": "2026-10-25T16:04:46.487Z",
+          "s": "ok",
+          "ms": 1155
         }
       ]
     },
