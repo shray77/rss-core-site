@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-25T05:15:03.743Z",
+  "generated_at": "2026-10-25T06:00:11.844Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -2501,21 +2501,16 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-24 17:33:59",
+      "last_run_at": "2026-10-25 06:00:11",
       "last_success_at": "2026-10-24 17:33:59",
       "last_item_at": "2026-10-24 17:33:59",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42916046,42915855,42915100,42911654,42908502,42900296,42898586,42892397&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 28,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-10-21T09:38:20.987Z",
-          "s": "ok",
-          "ms": 2668
-        },
         {
           "t": "2026-10-21T12:00:07.389Z",
           "s": "ok"
@@ -2727,6 +2722,11 @@
         {
           "t": "2026-10-25T05:15:03.974Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-25T06:00:12.148Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -2735,21 +2735,16 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-24 17:33:59",
+      "last_run_at": "2026-10-25 06:00:06",
       "last_success_at": "2026-10-24 17:33:59",
       "last_item_at": "2026-10-24 17:33:59",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 9,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-10-21T09:38:20.987Z",
-          "s": "ok",
-          "ms": 2668
-        },
         {
           "t": "2026-10-21T12:00:07.389Z",
           "s": "ok"
@@ -2955,6 +2950,11 @@
         {
           "t": "2026-10-25T05:15:03.974Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-25T06:00:12.148Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
