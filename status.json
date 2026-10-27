@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-27T20:00:02.977Z",
+  "generated_at": "2026-10-27T20:57:01.119Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -2058,9 +2058,9 @@
       "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-27 16:00:08",
-      "last_success_at": "2026-10-27 16:00:08",
-      "last_item_at": "2026-10-27 16:00:08",
+      "last_run_at": "2026-10-27 20:57:00",
+      "last_success_at": "2026-10-27 20:57:00",
+      "last_item_at": "2026-10-27 20:57:00",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2183,7 +2183,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2387
         }
       ]
     },
@@ -2536,13 +2537,13 @@
       "name": "PubMed: antimicrobial resistance in animals",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:37",
-      "last_success_at": "2026-10-27 08:00:37",
-      "last_item_at": "2026-10-27 08:00:37",
+      "last_run_at": "2026-10-27 20:56:57",
+      "last_success_at": "2026-10-27 20:56:57",
+      "last_item_at": "2026-10-27 20:56:57",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 91,
+      "entries": 97,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2743,7 +2744,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -3232,21 +3234,16 @@
       "name": "PubMed: equine medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:19",
-      "last_success_at": "2026-10-26 18:00:27",
-      "last_item_at": "2026-10-26 18:00:27",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=equine%20medicine&retmax=6&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 60,
+      "last_run_at": "2026-10-27 20:56:55",
+      "last_success_at": "2026-10-27 20:56:55",
+      "last_item_at": "2026-10-27 20:56:55",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 66,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok",
-          "ms": 2518
-        },
         {
           "t": "2026-10-24T00:00:20.275Z",
           "s": "ok"
@@ -3446,6 +3443,11 @@
           "t": "2026-10-27T20:00:03.278Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-27T20:57:01.471Z",
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -3454,13 +3456,13 @@
       "name": "PubMed: feline medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:36",
-      "last_success_at": "2026-10-27 08:00:36",
-      "last_item_at": "2026-10-27 08:00:36",
+      "last_run_at": "2026-10-27 20:56:56",
+      "last_success_at": "2026-10-27 20:56:56",
+      "last_item_at": "2026-10-27 20:56:56",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 65,
+      "entries": 71,
       "stale": false,
       "error_code": null,
       "history": [
@@ -3679,7 +3681,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -3688,21 +3691,16 @@
       "name": "PubMed: veterinary anesthesia and analgesia",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:14",
-      "last_success_at": "2026-10-26 18:00:26",
-      "last_item_at": "2026-10-26 18:00:26",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20anesthesia%20OR%20analgesia&retmax=5&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 103,
+      "last_run_at": "2026-10-27 20:56:55",
+      "last_success_at": "2026-10-27 20:56:55",
+      "last_item_at": "2026-10-27 20:56:55",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 108,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok",
-          "ms": 2518
-        },
         {
           "t": "2026-10-24T00:00:20.275Z",
           "s": "ok"
@@ -3908,6 +3906,11 @@
           "t": "2026-10-27T20:00:03.278Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-27T20:57:01.471Z",
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -3916,13 +3919,13 @@
       "name": "PubMed: veterinary dermatology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:37",
-      "last_success_at": "2026-10-27 08:00:37",
-      "last_item_at": "2026-10-27 08:00:37",
+      "last_run_at": "2026-10-27 20:56:57",
+      "last_success_at": "2026-10-27 20:56:57",
+      "last_item_at": "2026-10-27 20:56:57",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 21,
+      "entries": 23,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4123,7 +4126,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -4132,21 +4136,16 @@
       "name": "PubMed: veterinary diagnostic imaging",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:32",
-      "last_success_at": "2026-10-26 18:00:28",
-      "last_item_at": "2026-10-26 18:00:28",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20diagnostic%20imaging&retmax=5&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 56,
+      "last_run_at": "2026-10-27 20:56:55",
+      "last_success_at": "2026-10-27 20:56:55",
+      "last_item_at": "2026-10-27 20:56:55",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 61,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-23T22:00:17.690Z",
-          "s": "ok",
-          "ms": 2518
-        },
         {
           "t": "2026-10-24T00:00:20.275Z",
           "s": "ok"
@@ -4346,6 +4345,11 @@
           "t": "2026-10-27T20:00:03.278Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-27T20:57:01.471Z",
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -4354,21 +4358,16 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-27 16:00:08",
-      "last_success_at": "2026-10-27 10:00:05",
-      "last_item_at": "2026-10-27 10:00:05",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20infectious%20diseases&retmax=12&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 205,
+      "last_run_at": "2026-10-27 20:56:58",
+      "last_success_at": "2026-10-27 20:56:58",
+      "last_item_at": "2026-10-27 20:56:58",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 217,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-24T00:00:20.275Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-10-24T01:04:53.952Z",
           "s": "err",
@@ -4584,6 +4583,11 @@
           "t": "2026-10-27T20:00:03.278Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-10-27T20:57:01.471Z",
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -4592,13 +4596,13 @@
       "name": "PubMed: veterinary oncology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:35",
-      "last_success_at": "2026-10-27 08:00:35",
-      "last_item_at": "2026-10-27 08:00:35",
+      "last_run_at": "2026-10-27 20:56:56",
+      "last_success_at": "2026-10-27 20:56:56",
+      "last_item_at": "2026-10-27 20:56:56",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 52,
+      "entries": 58,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4805,7 +4809,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
@@ -4814,13 +4819,13 @@
       "name": "PubMed: veterinary parasitology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-27 08:00:38",
-      "last_success_at": "2026-10-27 08:00:38",
-      "last_item_at": "2026-10-27 08:00:38",
+      "last_run_at": "2026-10-27 20:56:58",
+      "last_success_at": "2026-10-27 20:56:58",
+      "last_item_at": "2026-10-27 20:56:58",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 96,
+      "entries": 102,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5021,7 +5026,8 @@
         },
         {
           "t": "2026-10-27T20:00:03.278Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 419
         }
       ]
     },
