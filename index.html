@@ -219,8 +219,8 @@
   <section class="legend">
     <h3>Легенда</h3>
     <div><span class="dot ok"></span>ok — источник опрашивается, свежие данные приходят по своему интервалу</div>
-    <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48 ч или 2 интервала)</div>
-    <div><span class="dot err"></span>ошибка — последний прогон упал; после 3 падений подряд воркер шлёт алерт</div>
+    <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48&nbsp;ч или 2&nbsp;интервала)</div>
+    <div><span class="dot err"></span>ошибка — последний прогон упал; после 3&nbsp;падений подряд воркер шлёт алерт</div>
     <div>полоска под источником — заполненность интервала: чем ближе к концу, тем ближе следующий прогон (и возможная просрочка)</div>
     <div>прогоны — история последних проверок: зелёный ok, жёлтый нет данных, красный ошибка (наведи на квадрат)</div>
   </section>
@@ -246,12 +246,13 @@ const timeAgo = (s) => {
   if (isNaN(ms)) return "—";
   const m = Math.floor(ms / 60000);
   if (m < 1) return "только что";
-  if (m < 60) return m + " мин назад";
+  if (m < 60) return m + "\u00A0мин назад";
   const h = Math.floor(m / 60);
-  if (h < 24) return h + " ч назад";
-  return Math.floor(h / 24) + " дн назад";
+  if (h < 24) return h + "\u00A0ч назад";
+  return Math.floor(h / 24) + "\u00A0дн назад";
 };
-const fmtInt = (m) => m >= 60 ? (m / 60) + " ч" : m + " мин";
+/* интервал 0 или отсутствует — релей Actions: циклом управляет расписание GitHub Actions */
+const fmtInt = (m) => !(m > 0) ? "по расписанию Actions" : m >= 60 ? (m / 60) + "\u00A0ч" : m + "\u00A0мин";
 /* русская плюрализация: [один, два-четыре, много] */
 const plural = (n, f) => { const a = Math.abs(n) % 100, b = a % 10; return f[a > 10 && a < 20 ? 2 : b === 1 ? 0 : b > 1 && b < 5 ? 1 : 2]; };
 const cls = (s) => s.last_status !== "ok" ? "err" : (s.stale ? "stale" : "ok");
@@ -262,8 +263,8 @@ const trunc = (t) => t.length > 140 ? t.slice(0, 140) + "…" : t;
 /* человекочитаемая диагностика вместо сырого URL */
 function humanErr(s) {
   const raw = String(s.last_error || "").trim();
-  if (/429/.test(raw)) return `NCBI PubMed ограничивает частоту запросов (HTTP 429). Это не потеря данных: воркер повторит по расписанию (интервал ${fmtInt(s.interval_minutes)}), записи прошлых прогонов уже в базе.`;
-  if (/timeout|timed?\s*out|etimedout/i.test(raw)) return `Источник не ответил вовремя — повтор по расписанию (интервал ${fmtInt(s.interval_minutes)}).`;
+  if (/429/.test(raw)) return `NCBI PubMed ограничивает частоту запросов (HTTP 429). Это не потеря данных: воркер повторит по расписанию (интервал: ${fmtInt(s.interval_minutes)}), записи прошлых прогонов уже в базе.`;
+  if (/timeout|timed?\s*out|etimedout/i.test(raw)) return `Источник не ответил вовремя — повтор по расписанию (интервал: ${fmtInt(s.interval_minutes)}).`;
   if (/403|forbidden/i.test(raw)) return `Источник закрыл запрос (HTTP 403) — вероятно, сработала бот-защита; воркер повторит позже.`;
   if (/404/.test(raw)) return `Страница источника не найдена (HTTP 404) — вероятно, изменился адрес фида; нужен пересмотр источника.`;
   if (/5\d\d/.test(raw)) return `Сбой на стороне источника (HTTP 5xx) — повтор по расписанию.`;
@@ -274,7 +275,10 @@ function humanErr(s) {
 function fresh(s) {
   const t = parseT(s.last_success_at);
   if (isNaN(t)) return { pct: 100, c: "err" };
-  const ratio = (Date.now() - t) / ((s.interval_minutes || 60) * 60000);
+  /* интервал 0 или отсутствует — релей Actions: цикл воркеру неизвестен,
+     заполненность не моделируем (ветвящийся дефолт вместо молчаливого `|| 60`) */
+  if (!(s.interval_minutes > 0)) return { pct: 0, c: s.stale ? "err" : "ok" };
+  const ratio = (Date.now() - t) / (s.interval_minutes * 60000);
   const pct = Math.max(0, Math.min(1, ratio)) * 100;
   const c = (s.stale || ratio >= 1) ? "err" : ratio >= .5 ? "warn" : "ok";
   return { pct, c };
@@ -363,7 +367,7 @@ async function refresh() {
         <div class="row1">
           <span class="dot ${c}"></span><b>${esc(s.name)}</b>
           <span class="sid">${esc(s.id)}</span>
-          <span class="count"><b>${s.entries}</b> записей</span>
+          <span class="count"><b>${s.entries ?? 0}</b> записей</span>
         </div>
         <div class="row2">
           <span>статус: <b>${label(s)}</b>${ec}${fails}</span>
@@ -371,7 +375,7 @@ async function refresh() {
           <span>успех: <b>${timeAgo(s.last_success_at)}</b></span>
           <span${overdue}>свежая запись: <b>${timeAgo(s.last_item_at)}</b></span>
         </div>
-        <div class="fresh" title="заполненность интервала до следующего прогона"><i class="${f.c}" style="width:${f.pct}%"></i></div>
+        ${s.interval_minutes > 0 ? `<div class="fresh" title="заполненность интервала до следующего прогона"><i class="${f.c}" style="width:${f.pct}%"></i></div>` : ""}
         ${spark(s)}
         ${s.last_error ? `<div class="errbox">${hum ? esc(hum) + `<details><summary>технические детали</summary><code>${esc(trunc(s.last_error))}</code></details>` : esc(trunc(s.last_error))}</div>` : ""}
       </div>`;
