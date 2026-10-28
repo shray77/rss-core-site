@@ -165,7 +165,7 @@
   h1{font-size:21px}
   .brand p{font-size:12.5px;line-height:1.4;margin:3px 0 0;
     display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
-  .topbar .live,.topbar-right{flex-wrap:nowrap}
+  .topbar .live,.topbar-right{flex-wrap:wrap}
   .hub{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
     -webkit-overflow-scrolling:touch;padding-bottom:2px}
   .hub::-webkit-scrollbar{display:none}
@@ -252,9 +252,11 @@ const timeAgo = (s) => {
   return Math.floor(h / 24) + " дн назад";
 };
 const fmtInt = (m) => m >= 60 ? (m / 60) + " ч" : m + " мин";
+/* русская плюрализация: [один, два-четыре, много] */
+const plural = (n, f) => { const a = Math.abs(n) % 100, b = a % 10; return f[a > 10 && a < 20 ? 2 : b === 1 ? 0 : b > 1 && b < 5 ? 1 : 2]; };
 const cls = (s) => s.last_status !== "ok" ? "err" : (s.stale ? "stale" : "ok");
 const label = (s) => s.last_status !== "ok" ? "ошибка" : (s.stale ? "нет данных" : "ok");
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 const trunc = (t) => t.length > 140 ? t.slice(0, 140) + "…" : t;
 
 /* человекочитаемая диагностика вместо сырого URL */
@@ -283,7 +285,7 @@ function renderAlert(srcs) {
   const stales = srcs.filter(s => s.last_status === "ok" && s.stale);
   const al = document.getElementById("alert");
   if (errs.length) {
-    const verb = errs.length === 1 ? "1 источник в ошибке" : `${errs.length} источников в ошибке`;
+    const verb = `${errs.length} ${plural(errs.length, ["источник", "источника", "источников"])} в ошибке`;
     al.innerHTML = `<div class="alertbar">⚠ ${verb}: ${errs.map(s => esc(s.name)).join(", ")}. Данные не теряются — повтор по расписанию. <a href="#src-${esc(errs[0].id)}">к карточке ↓</a></div>`;
   } else if (stales.length) {
     al.innerHTML = `<div class="alertbar warn">⏳ нет свежих данных: ${stales.map(s => esc(s.name)).join(", ")} — источник жив, но давно не приносил записей. <a href="#src-${esc(stales[0].id)}">к карточке ↓</a></div>`;
@@ -359,8 +361,8 @@ async function refresh() {
       const ec = s.error_code ? ` <span class="ecode" title="машиночитаемый класс ошибки">${esc(s.error_code)}</span>` : "";
       return `<div class="src" id="src-${esc(s.id)}">
         <div class="row1">
-          <span class="dot ${c}"></span><b>${s.name}</b>
-          <span class="sid">${s.id}</span>
+          <span class="dot ${c}"></span><b>${esc(s.name)}</b>
+          <span class="sid">${esc(s.id)}</span>
           <span class="count"><b>${s.entries}</b> записей</span>
         </div>
         <div class="row2">
