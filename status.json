@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-28T23:10:49.544Z",
+  "generated_at": "2026-10-29T00:00:05.439Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -235,9 +235,9 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 18:00:25",
-      "last_success_at": "2026-10-28 18:00:25",
-      "last_item_at": "2026-10-28 18:00:25",
+      "last_run_at": "2026-10-29 00:00:03",
+      "last_success_at": "2026-10-29 00:00:03",
+      "last_item_at": "2026-10-29 00:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -452,7 +452,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 312
         }
       ]
     },
@@ -461,9 +462,9 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-28 19:05:07",
-      "last_success_at": "2026-10-28 19:05:07",
-      "last_item_at": "2026-10-28 19:05:07",
+      "last_run_at": "2026-10-29 00:00:04",
+      "last_success_at": "2026-10-29 00:00:04",
+      "last_item_at": "2026-10-29 00:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -680,7 +681,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 291
         }
       ]
     },
@@ -689,9 +691,9 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-10-28 19:05:07",
-      "last_success_at": "2026-10-28 19:05:07",
-      "last_item_at": "2026-10-28 19:05:07",
+      "last_run_at": "2026-10-29 00:00:04",
+      "last_success_at": "2026-10-29 00:00:04",
+      "last_item_at": "2026-10-29 00:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -908,7 +910,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 291
         }
       ]
     },
@@ -1144,13 +1147,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 19:04:58",
-      "last_success_at": "2026-10-28 19:04:58",
-      "last_item_at": "2026-10-28 19:04:58",
+      "last_run_at": "2026-10-29 00:00:04",
+      "last_success_at": "2026-10-29 00:00:04",
+      "last_item_at": "2026-10-29 00:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 656,
+      "entries": 657,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1361,7 +1364,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 435
         }
       ]
     },
@@ -1370,9 +1374,9 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 19:04:58",
-      "last_success_at": "2026-10-28 19:04:58",
-      "last_item_at": "2026-10-28 19:04:58",
+      "last_run_at": "2026-10-29 00:00:03",
+      "last_success_at": "2026-10-29 00:00:03",
+      "last_item_at": "2026-10-29 00:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1587,7 +1591,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 296
         }
       ]
     },
@@ -1596,9 +1601,9 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 18:00:26",
-      "last_success_at": "2026-10-28 18:00:26",
-      "last_item_at": "2026-10-28 18:00:26",
+      "last_run_at": "2026-10-29 00:00:03",
+      "last_success_at": "2026-10-29 00:00:03",
+      "last_item_at": "2026-10-29 00:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1813,7 +1818,8 @@
         },
         {
           "t": "2026-10-28T23:10:50.086Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 313
         }
       ]
     },
@@ -2045,15 +2051,15 @@
       "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 18:00:24",
-      "last_success_at": "2026-10-28 12:00:09",
-      "last_item_at": "2026-10-28 12:00:09",
-      "last_status": "error",
-      "last_error": "HTTP 503 for https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(SRC%3AAGR)%20AND%20(veterinary%20OR%20%22animal%20health%22%20OR%20%22animal%20disease%22%20OR%20livestock%20OR%20poultry%20OR%20swine%20OR%20cattle)&format=json&pageSize=12&sort=P_PDATE_D%20desc&resultType=core",
-      "consecutive_failures": 1,
+      "last_run_at": "2026-10-29 00:00:02",
+      "last_success_at": "2026-10-29 00:00:02",
+      "last_item_at": "2026-10-29 00:00:02",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
       "entries": 11,
       "stale": false,
-      "error_code": "server",
+      "error_code": null,
       "history": [
         {
           "t": "2026-10-25T16:04:46.487Z",
@@ -2230,6 +2236,11 @@
           "t": "2026-10-28T23:10:50.086Z",
           "s": "err",
           "e": "server"
+        },
+        {
+          "t": "2026-10-29T00:00:05.816Z",
+          "s": "ok",
+          "ms": 441
         }
       ]
     },
@@ -2238,15 +2249,15 @@
       "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-28 19:05:07",
-      "last_success_at": "2026-10-28 12:00:15",
-      "last_item_at": "2026-10-28 12:00:15",
-      "last_status": "error",
-      "last_error": "HTTP 503 for https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(SRC%3APPR)%20AND%20(veterinary%20OR%20%22animal%20health%22%20OR%20livestock%20OR%20%22companion%20animal%22%20OR%20poultry%20OR%20swine%20OR%20cattle%20OR%20%22animal%20welfare%22)&format=json&pageSize=12&sort=P_PDATE_D%20desc&resultType=core",
-      "consecutive_failures": 1,
+      "last_run_at": "2026-10-29 00:00:05",
+      "last_success_at": "2026-10-29 00:00:05",
+      "last_item_at": "2026-10-29 00:00:05",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
       "entries": 23,
       "stale": false,
-      "error_code": "server",
+      "error_code": null,
       "history": [
         {
           "t": "2026-10-25T16:04:46.487Z",
@@ -2423,6 +2434,11 @@
           "t": "2026-10-28T23:10:50.086Z",
           "s": "err",
           "e": "server"
+        },
+        {
+          "t": "2026-10-29T00:00:05.816Z",
+          "s": "ok",
+          "ms": 379
         }
       ]
     },
