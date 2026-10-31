@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-31T16:00:12.648Z",
+  "generated_at": "2026-10-31T16:18:24.348Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -2709,13 +2709,13 @@
       "name": "PubMed: antimicrobial resistance in animals",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:23",
+      "last_success_at": "2026-10-31 16:18:23",
+      "last_item_at": "2026-10-31 16:18:23",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 120,
+      "entries": 123,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2928,7 +2928,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -3405,9 +3406,9 @@
       "name": "PubMed: equine medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:22",
+      "last_success_at": "2026-10-31 16:18:22",
+      "last_item_at": "2026-10-31 16:18:22",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -3620,7 +3621,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -3629,13 +3631,13 @@
       "name": "PubMed: feline medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:36",
-      "last_success_at": "2026-10-31 04:00:36",
-      "last_item_at": "2026-10-31 04:00:36",
+      "last_run_at": "2026-10-31 16:18:21",
+      "last_success_at": "2026-10-31 16:18:21",
+      "last_item_at": "2026-10-31 16:18:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 89,
+      "entries": 91,
       "stale": false,
       "error_code": null,
       "history": [
@@ -3848,7 +3850,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -3857,13 +3860,13 @@
       "name": "PubMed: veterinary anesthesia and analgesia",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:23",
+      "last_success_at": "2026-10-31 16:18:23",
+      "last_item_at": "2026-10-31 16:18:23",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 133,
+      "entries": 138,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4072,7 +4075,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -4081,9 +4085,9 @@
       "name": "PubMed: veterinary dermatology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:22",
+      "last_success_at": "2026-10-31 16:18:22",
+      "last_item_at": "2026-10-31 16:18:22",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4300,7 +4304,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -4309,13 +4314,13 @@
       "name": "PubMed: veterinary diagnostic imaging",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:24",
+      "last_success_at": "2026-10-31 16:18:24",
+      "last_item_at": "2026-10-31 16:18:24",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 78,
+      "entries": 81,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4524,7 +4529,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -4772,9 +4778,9 @@
       "name": "PubMed: veterinary oncology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:21",
+      "last_success_at": "2026-10-31 16:18:21",
+      "last_item_at": "2026-10-31 16:18:21",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4985,7 +4991,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
@@ -4994,13 +5001,13 @@
       "name": "PubMed: veterinary parasitology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-31 04:00:37",
-      "last_success_at": "2026-10-31 04:00:37",
-      "last_item_at": "2026-10-31 04:00:37",
+      "last_run_at": "2026-10-31 16:18:23",
+      "last_success_at": "2026-10-31 16:18:23",
+      "last_item_at": "2026-10-31 16:18:23",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 128,
+      "entries": 129,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5207,7 +5214,8 @@
         },
         {
           "t": "2026-10-31T16:00:13.563Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 324
         }
       ]
     },
