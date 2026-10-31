@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-31T11:11:30.783Z",
+  "generated_at": "2026-10-31T12:00:15.940Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1819,13 +1819,13 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-10-31 05:28:27",
-      "last_success_at": "2026-10-31 05:28:27",
-      "last_item_at": "2026-10-30 20:00:03",
+      "last_run_at": "2026-10-31 12:00:15",
+      "last_success_at": "2026-10-31 12:00:15",
+      "last_item_at": "2026-10-31 12:00:15",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 497,
+      "entries": 499,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2031,7 +2031,8 @@
         },
         {
           "t": "2026-10-31T11:11:31.044Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 483
         }
       ]
     },
@@ -2931,9 +2932,9 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-30 23:44:53",
-      "last_success_at": "2026-10-30 23:44:53",
-      "last_item_at": "2026-10-30 23:44:53",
+      "last_run_at": "2026-10-31 12:00:14",
+      "last_success_at": "2026-10-31 12:00:14",
+      "last_item_at": "2026-10-31 12:00:14",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -3156,7 +3157,8 @@
         },
         {
           "t": "2026-10-31T11:11:31.044Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 4312
         }
       ]
     },
@@ -3165,9 +3167,9 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-30 23:44:53",
-      "last_success_at": "2026-10-30 23:44:53",
-      "last_item_at": "2026-10-30 23:44:53",
+      "last_run_at": "2026-10-31 12:00:14",
+      "last_success_at": "2026-10-31 12:00:14",
+      "last_item_at": "2026-10-31 12:00:14",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -3390,7 +3392,8 @@
         },
         {
           "t": "2026-10-31T11:11:31.044Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 4312
         }
       ]
     },
@@ -5216,20 +5219,16 @@
       "name": "PubMed: veterinary surgery",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-10-30 23:44:54",
+      "last_run_at": "2026-10-31 12:00:10",
       "last_success_at": "2026-10-30 23:44:54",
       "last_item_at": "2026-10-30 23:44:54",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20surgery&retmax=6&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 114,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-10-27T12:00:03.373Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-27T14:00:09.645Z",
           "s": "ok",
@@ -5442,6 +5441,11 @@
         {
           "t": "2026-10-31T11:11:31.044Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-10-31T12:00:16.206Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     }
