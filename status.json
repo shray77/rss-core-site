@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-10-31T20:00:12.420Z",
+  "generated_at": "2026-10-31T20:16:18.574Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1146,8 +1146,8 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-31 16:00:09",
-      "last_success_at": "2026-10-31 16:00:09",
+      "last_run_at": "2026-10-31 20:16:18",
+      "last_success_at": "2026-10-31 20:16:18",
       "last_item_at": "2026-10-31 16:00:09",
       "last_status": "ok",
       "last_error": null,
@@ -1362,7 +1362,8 @@
         },
         {
           "t": "2026-10-31T20:00:12.804Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 215
         }
       ]
     },
@@ -4533,9 +4534,9 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-10-31 16:00:08",
-      "last_success_at": "2026-10-31 16:00:08",
-      "last_item_at": "2026-10-31 16:00:08",
+      "last_run_at": "2026-10-31 20:16:18",
+      "last_success_at": "2026-10-31 20:16:18",
+      "last_item_at": "2026-10-31 20:16:18",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4761,7 +4762,8 @@
         },
         {
           "t": "2026-10-31T20:00:12.804Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 743
         }
       ]
     },
