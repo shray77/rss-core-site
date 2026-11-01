@@ -1,6 +1,6 @@
 # 🛰️ rss-core-site
 
-Публичная витрина статуса конвейера [rss-core](https://github.com/shray77/rss-core) на GitHub Pages.
+Публичная витрина статуса конвейера rss-core на GitHub Pages. Исходники витрины — в этом репозитории (репозиторий воркера rss-core приватный, публичной ссылки нет).
 
 **Открыть: [shray77.github.io/rss-core-site](https://shray77.github.io/rss-core-site/)**
 

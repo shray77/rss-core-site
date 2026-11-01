@@ -66,9 +66,10 @@
   }
   button.refresh:hover { color: var(--text); border-color: var(--ds-border-strong); }
 
+  /* Б1 (QA): длинное имя без пробелов не рвёт вёрстку — перенос где угодно */
   .alertbar {
     background: color-mix(in srgb, var(--red) 8%, transparent); border: 1px solid color-mix(in srgb, var(--red) 30%, transparent); color: var(--err);
-    border-radius: var(--ds-radius); padding: 10px 14px; margin-top: 20px; font-size: 13.5px;
+    border-radius: var(--ds-radius); padding: 10px 14px; margin-top: 20px; font-size: 13.5px; overflow-wrap: anywhere;
   }
   .alertbar.warn { background: color-mix(in srgb, var(--amber) 7%, transparent); border-color: color-mix(in srgb, var(--amber) 30%, transparent); color: var(--warn); }
   .alertbar a { color: inherit; }
@@ -89,8 +90,8 @@
   .dot.ok { background: var(--accent); box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 70%, transparent); }
   .dot.stale { background: var(--warn); }
   .dot.err { background: var(--err); box-shadow: 0 0 8px color-mix(in srgb, var(--red) 60%, transparent); }
-  .src b { font-size: 15.5px; font-weight: 650; }
-  .sid { font: 11.5px var(--mono); color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); border: 1px solid color-mix(in srgb, var(--blue) 18%, transparent); padding: 2px 9px; border-radius: 999px; }
+  .src b { font-size: 15.5px; font-weight: 650; overflow-wrap: anywhere; min-width: 0; } /* Б1 (QA): имя-«шланг» переносится, а не растягивает документ */
+  .sid { font: 12px var(--mono); color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); border: 1px solid color-mix(in srgb, var(--blue) 18%, transparent); padding: 2px 9px; border-radius: 999px; }
   .count { margin-left: auto; font: 12.5px var(--mono); color: var(--muted); }
   .count b { font-size: 12.5px; color: var(--text); }
   .row2 { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; color: var(--faint); font-size: 12.5px; font-family: var(--mono); }
@@ -102,12 +103,12 @@
   .fresh i.warn { background: var(--warn); }
   .fresh i.err { background: var(--err); }
   .errbox {
-    margin-top: 10px; padding: 8px 12px; border-radius: 8px; font: 12.5px var(--mono);
+    margin-top: 10px; padding: 8px 12px; border-radius: 8px; font: 12.5px var(--mono); overflow-wrap: anywhere;
     background: color-mix(in srgb, var(--red) 7%, transparent); border: 1px solid color-mix(in srgb, var(--red) 25%, transparent); color: var(--err);
   }
   .errbox details { margin-top: 6px; }
-  .errbox summary { cursor: pointer; color: var(--muted); font-size: 11.5px; }
-  .errbox code { display: block; margin-top: 4px; word-break: break-all; opacity: .8; font-size: 11px; }
+  .errbox summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+  .errbox code { display: block; margin-top: 4px; word-break: break-all; opacity: .8; font-size: 12px; }
 
   .skel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--ds-radius); padding: 16px 18px; margin-bottom: 12px; }
   .sk { position: relative; overflow: hidden; background: var(--surface2); border-radius: var(--ds-radius-s); height: 12px; margin-bottom: 10px; }
@@ -124,14 +125,30 @@
   }
   .chip-btn:hover { color: var(--text); }
   .chip-btn.active { color: var(--warn); border-color: color-mix(in srgb, var(--amber) 45%, transparent); background: color-mix(in srgb, var(--amber) 10%, transparent); }
-  .ecode { font: 11px var(--mono); color: var(--err); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); border-radius: 999px; padding: 1px 8px; }
+  .ecode { font: 12px var(--mono); color: var(--err); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); border-radius: 999px; padding: 1px 8px; }
   .spark { display: flex; gap: 2px; align-items: flex-end; margin-top: 9px; flex-wrap: wrap; }
-  .spark .sl { font: 11px var(--mono); color: var(--faint); margin-right: 8px; align-self: center; }
+  .spark .sl { font: 12px var(--mono); color: var(--faint); margin-right: 8px; align-self: center; }
   .spark i { width: 7px; height: 14px; border-radius: 2px; background: var(--border); cursor: help; }
   .spark i.ok { background: color-mix(in srgb, var(--accent) 50%, transparent); }
   .spark i.stale { background: color-mix(in srgb, var(--amber) 55%, transparent); }
   .spark i.err { background: color-mix(in srgb, var(--red) 65%, transparent); }
+  /* П1 (жёсткий QA): история прогонов — не только hover-тултипы: строка «прогоны»
+     стала <details> (паттерн «технических деталей»): тап/Tab+Enter раскрывают список */
+  details.runs > summary { cursor: pointer; list-style: none; }
+  details.runs > summary::-webkit-details-marker { display: none; }
+  details.runs > summary.spark::after { content: "▾"; margin-left: 8px; align-self: center; color: var(--faint); font: 12px var(--mono); }
+  details.runs[open] > summary.spark::after { content: "▴"; }
+  .runslist { margin: 6px 0 0; padding: 0; list-style: none; font: 12px var(--mono); color: var(--muted); }
+  .runslist li { margin: 3px 0; }
   .failstate { color: var(--muted); text-align: center; padding: 40px 0; }
+
+  /* П5 (жёсткий QA): моушн уважает prefers-reduced-motion — та же дисциплина, что в vet-ds.css */
+  @media (prefers-reduced-motion: reduce) {
+    .sk::after { animation: none; }
+    html { scroll-behavior: auto; }
+  }
+  /* З-4 (QA): интерактивный чип фильтра не печатается на бумаге */
+  @media print { .tools { display: none; } }
 
   .legend { margin: 22px 0 0; padding: 14px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--ds-radius); }
   .legend h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
@@ -140,9 +157,10 @@
   #totop {
     position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border-radius: 50%;
     background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 18px;
-    cursor: pointer; opacity: 0; pointer-events: none; transition: .2s; z-index: 50;
+    cursor: pointer; opacity: 0; pointer-events: none; visibility: hidden; transition: .2s; z-index: 50;
   }
-  #totop.show { opacity: 1; pointer-events: auto; }
+  /* Б2 (QA): visibility убирает скрытую кнопку из tab-порядка — фокус не «уходит в пустоту» */
+  #totop.show { opacity: 1; pointer-events: auto; visibility: visible; }
   #totop:hover { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
 
   footer { border-top: 1px solid var(--border); margin-top: 36px; padding: 18px 0 30px; }
@@ -155,8 +173,9 @@
   .theme-pill { min-height: 34px; padding: 0 13px; font: 500 12px var(--ds-font-mono); }
   .theme-pill svg { color: var(--ds-accent); }
 
-/* -- мобильная компакция (Task 165): шапка даёт контенту первый экран -- */
-@media (max-width:640px){
+/* -- мобильная компакция (Task 165): шапка даёт контенту первый экран.
+   П4 (жёсткий QA): тот же класс устройств — телефон в ландшафте (812×375), не только портрет -- */
+@media (max-width:640px),(max-height:480px){
   header.top{padding-bottom:10px}
   .topbar{padding-top:14px;gap:10px}
   .brand{gap:10px}
@@ -171,6 +190,14 @@
   .hub::-webkit-scrollbar{display:none}
   .hub a{flex:none;white-space:nowrap}
   footer{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+}
+
+/* П3 (жёсткий QA): тач-цели ≥44px на грубом указателе — консистентно с #totop (44×44) */
+@media (pointer: coarse) {
+  .hub a, .chip-btn, button.refresh, .theme-pill, .alertbar a { min-height: 44px; }
+  .alertbar a { display: inline-flex; align-items: center; }
+  .errbox summary { padding: 15px 0; }
+  details.runs > summary.spark { min-height: 44px; align-items: center; }
 }
 </style>
 </head>
@@ -222,14 +249,14 @@
     <div><span class="dot stale"></span>нет данных — источник жив, но давно не приносил новых записей (порог: 48&nbsp;ч или 2&nbsp;интервала)</div>
     <div><span class="dot err"></span>ошибка — последний прогон упал; после 3&nbsp;падений подряд воркер шлёт алерт</div>
     <div>полоска под источником — заполненность интервала: чем ближе к концу, тем ближе следующий прогон (и возможная просрочка)</div>
-    <div>прогоны — история последних проверок: зелёный ok, жёлтый нет данных, красный ошибка (наведи на квадрат)</div>
+    <div>прогоны — история последних проверок: зелёный ok, жёлтый нет данных, красный ошибка (наведи на квадрат или коснись строки «прогоны» — раскроется список)</div>
   </section>
 </main>
 
 <footer>
   <div class="wrap foot">
     <span class="legal">информационный сервис · не ветеринарный совет · <a href="./terms.html">условия и дисклеймер</a></span>
-    <span>данные: <a href="./status.json">status.json</a>, воркер публикует после каждого прогона · <a href="https://shray77.github.io/vetdigest-site/">дашборд VetDigest →</a> · <a href="https://github.com/shray77/rss-core">репозиторий</a></span>
+    <span>данные: <a href="./status.json">status.json</a>, воркер публикует после каждого прогона · <a href="https://shray77.github.io/vetdigest-site/">дашборд VetDigest →</a> · <a href="https://github.com/shray77/rss-core-site">репозиторий</a></span>
   </div>
 </footer>
 
@@ -237,7 +264,7 @@
 
 <script>
 const AUTO = 5 * 60 * 1000;
-let lastGen = null, lastRun = Date.now();
+let lastGen = null, lastRun = Date.now(), failed = false;
 let onlyProblems = localStorage.getItem("rc-only-problems") === "1";
 
 const parseT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : NaN;
@@ -314,21 +341,29 @@ function donut(srcs) {
 }
 
 function tickMeta() {
-  if (lastGen) document.getElementById("meta").textContent = "обновлено " + timeAgo(lastGen);
+  /* Б3 (QA): при неудачном обновлении мета не притворяется свежей */
+  if (lastGen) document.getElementById("meta").textContent = "обновлено " + timeAgo(lastGen) + (failed ? " · status.json недоступен" : "");
   const left = Math.max(0, AUTO - (Date.now() - lastRun));
   document.getElementById("cd").textContent = `автообновление через ${Math.floor(left / 60000)}:${String(Math.floor((left % 60000) / 1000)).padStart(2, "0")}`;
 }
 
 /* спарклайн последних прогонов: точки живут прямо в status.json (воркер
-   читает прошлый файл и дописывает), миграций D1 не нужно */
+   читает прошлый файл и дописывает), миграций D1 не нужно.
+   П1 (жёсткий QA): те же данные — не только в hover-тултипах: строка «прогоны»
+   это <details>, тап/клавиатура раскрывают список (паттерн «технических деталей»).
+   З-2 (QA): кривая дата в истории — «дата неизвестна», а не «Invalid Date» */
 function spark(s) {
   const h = s.history || [];
   if (!h.length) return "";
-  const pts = h.slice(-26).map(p => {
-    const when = new Date(p.t).toLocaleString("ru-RU", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-    return `<i class="${esc(p.s)}" title="${esc(when)} · ${esc(p.s)}${p.e ? " (" + esc(p.e) + ")" : ""}${p.ms ? " · " + p.ms + " мс" : ""}"></i>`;
-  }).join("");
-  return `<div class="spark"><span class="sl">прогоны:</span>${pts}</div>`;
+  const runs = h.slice(-26).map(p => {
+    const d = new Date(p.t);
+    const when = isNaN(d.getTime()) ? "дата неизвестна" : d.toLocaleString("ru-RU", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    const tip = `${esc(when)} · ${esc(p.s)}${p.e ? " (" + esc(p.e) + ")" : ""}${p.ms ? " · " + p.ms + " мс" : ""}`;
+    return { c: esc(p.s), tip };
+  });
+  const bars = runs.map(r => `<i class="${r.c}" title="${r.tip}"></i>`).join("");
+  const list = runs.map(r => `<li>${r.tip}</li>`).join("");
+  return `<details class="runs"><summary class="spark"><span class="sl">прогоны:</span>${bars}</summary><ul class="runslist">${list}</ul></details>`;
 }
 
 async function refresh() {
@@ -336,6 +371,7 @@ async function refresh() {
   try {
     const j = await (await fetch("./status.json", { cache: "no-store" })).json();
     lastGen = j.generated_at;
+    failed = false;
     const srcs = j.sources || [];
     /* ошибки — наверх, затем stale, дальше по имени */
     const w = (s) => s.last_status !== "ok" ? 0 : s.stale ? 1 : 2;
@@ -348,7 +384,7 @@ async function refresh() {
     document.getElementById("stats").innerHTML =
       donut(srcs) +
       `<div class="stat"><b>${srcs.length}</b><span>источников</span></div>` +
-      `<div class="stat"><b>${total}</b><span>записей в базе</span></div>` +
+      `<div class="stat"><b>${total.toLocaleString("ru-RU")}</b><span>записей в базе</span></div>` +
       `<div class="stat"><b style="color:${err ? "var(--err)" : "var(--accent)"}">${err}</b><span>в ошибке</span></div>` +
       `<div class="stat"><b style="color:${stale ? "var(--warn)" : "var(--accent)"}">${stale}</b><span>без свежих данных</span></div>`;
 
@@ -365,9 +401,9 @@ async function refresh() {
       const ec = s.error_code ? ` <span class="ecode" title="машиночитаемый класс ошибки">${esc(s.error_code)}</span>` : "";
       return `<div class="src" id="src-${esc(s.id)}">
         <div class="row1">
-          <span class="dot ${c}"></span><b>${esc(s.name)}</b>
+          <span class="dot ${c}"></span><b>${esc(trunc(s.name))}</b>
           <span class="sid">${esc(s.id)}</span>
-          <span class="count"><b>${s.entries ?? 0}</b> записей</span>
+          <span class="count"><b>${(s.entries ?? 0).toLocaleString("ru-RU")}</b> записей</span>
         </div>
         <div class="row2">
           <span>статус: <b>${label(s)}</b>${ec}${fails}</span>
@@ -379,8 +415,12 @@ async function refresh() {
         ${spark(s)}
         ${s.last_error ? `<div class="errbox">${hum ? esc(hum) + `<details><summary>технические детали</summary><code>${esc(trunc(s.last_error))}</code></details>` : esc(trunc(s.last_error))}</div>` : ""}
       </div>`;
-    }).join("") : `<div class="failstate">✓ проблем нет — все источники зелёные<br><button class="chip-btn" onclick="toggleProblems()">показать все</button></div>`;
+    }).join("") : (srcs.length
+      ? `<div class="failstate">✓ проблем нет — все источники зелёные<br><button class="chip-btn" onclick="toggleProblems()">показать все</button></div>`
+      /* З-3 (QA): пустой sources[] — «нет данных», а не «все зелёные» */
+      : `<div class="failstate">Нет данных: в status.json нет ни одного источника — воркер давно не публиковал статусы или публикация сломана.</div>`);
   } catch (e) {
+    failed = true; /* Б3 (QA): иначе tickMeta() тут же затирает ошибку свежей меткой от неочищенного lastGen */
     document.getElementById("meta").textContent = "status.json недоступен";
     document.getElementById("sources").innerHTML = `<div class="failstate">Не удалось загрузить status.json — обнови страницу или зайди позже.</div>`;
   }
@@ -401,7 +441,7 @@ setInterval(tickMeta, 1000);
 
 const totop = document.getElementById("totop");
 addEventListener("scroll", () => totop.classList.toggle("show", scrollY > 600), { passive: true });
-totop.onclick = () => scrollTo({ top: 0, behavior: "smooth" });
+totop.onclick = () => scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); /* П5 */
 </script>
 <script>
 (function(){
