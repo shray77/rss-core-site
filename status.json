@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-04T11:31:43.716Z",
+  "generated_at": "2026-11-04T12:00:05.408Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -462,9 +462,9 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-04 08:00:05",
-      "last_success_at": "2026-11-04 08:00:05",
-      "last_item_at": "2026-11-04 08:00:05",
+      "last_run_at": "2026-11-04 12:00:05",
+      "last_success_at": "2026-11-04 12:00:05",
+      "last_item_at": "2026-11-04 12:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -683,7 +683,8 @@
         },
         {
           "t": "2026-11-04T11:31:44.126Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 365
         }
       ]
     },
@@ -4560,20 +4561,16 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 06:00:13",
-      "last_success_at": "2026-11-04 02:00:03",
-      "last_item_at": "2026-11-04 02:00:03",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42977442,42977135,42976654,42975244,42975197,42974939,42974767,42974632,42974410,42974404,42974130,42973760&retmode=xml",
-      "consecutive_failures": 1,
-      "entries": 292,
+      "last_run_at": "2026-11-04 12:00:04",
+      "last_success_at": "2026-11-04 12:00:04",
+      "last_item_at": "2026-11-04 12:00:04",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 298,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-10-31T14:00:08.382Z",
-          "s": "ok"
-        },
         {
           "t": "2026-10-31T16:00:13.563Z",
           "s": "ok",
@@ -4792,6 +4789,11 @@
           "t": "2026-11-04T11:31:44.126Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-11-04T12:00:05.769Z",
+          "s": "ok",
+          "ms": 567
         }
       ]
     },
@@ -5029,13 +5031,13 @@
       "name": "PubMed: veterinary parasitology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-03 23:15:06",
-      "last_success_at": "2026-11-03 23:15:06",
-      "last_item_at": "2026-11-03 23:15:06",
+      "last_run_at": "2026-11-04 12:00:04",
+      "last_success_at": "2026-11-04 12:00:04",
+      "last_item_at": "2026-11-04 12:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 144,
+      "entries": 150,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5248,7 +5250,8 @@
         },
         {
           "t": "2026-11-04T11:31:44.126Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 567
         }
       ]
     },
