@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-05T00:00:21.219Z",
+  "generated_at": "2026-11-05T00:20:20.187Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -235,13 +235,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:00:13",
-      "last_success_at": "2026-11-04 18:00:13",
-      "last_item_at": "2026-11-04 18:00:13",
+      "last_run_at": "2026-11-05 00:20:17",
+      "last_success_at": "2026-11-05 00:20:17",
+      "last_item_at": "2026-11-05 00:20:17",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 725,
+      "entries": 726,
       "stale": false,
       "error_code": null,
       "history": [
@@ -452,7 +452,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 578
         }
       ]
     },
@@ -921,9 +922,9 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:00:13",
-      "last_success_at": "2026-11-04 18:00:13",
-      "last_item_at": "2026-11-04 18:00:13",
+      "last_run_at": "2026-11-05 00:20:17",
+      "last_success_at": "2026-11-05 00:20:17",
+      "last_item_at": "2026-11-05 00:20:17",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1138,7 +1139,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 475
         }
       ]
     },
@@ -1147,13 +1149,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:00:12",
-      "last_success_at": "2026-11-04 18:00:12",
-      "last_item_at": "2026-11-04 18:00:12",
+      "last_run_at": "2026-11-05 00:20:16",
+      "last_success_at": "2026-11-05 00:20:16",
+      "last_item_at": "2026-11-05 00:20:16",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 683,
+      "entries": 684,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1363,7 +1365,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 573
         }
       ]
     },
@@ -1372,9 +1375,9 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:51:11",
-      "last_success_at": "2026-11-04 18:51:11",
-      "last_item_at": "2026-11-04 18:51:11",
+      "last_run_at": "2026-11-05 00:20:19",
+      "last_success_at": "2026-11-05 00:20:19",
+      "last_item_at": "2026-11-05 00:20:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1589,7 +1592,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 506
         }
       ]
     },
@@ -1598,9 +1602,9 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:51:11",
-      "last_success_at": "2026-11-04 18:51:11",
-      "last_item_at": "2026-11-04 18:51:11",
+      "last_run_at": "2026-11-05 00:20:19",
+      "last_success_at": "2026-11-05 00:20:19",
+      "last_item_at": "2026-11-05 00:20:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1815,7 +1819,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 512
         }
       ]
     },
@@ -2046,9 +2051,9 @@
       "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:51:10",
-      "last_success_at": "2026-11-04 18:51:10",
-      "last_item_at": "2026-11-04 18:51:10",
+      "last_run_at": "2026-11-05 00:20:18",
+      "last_success_at": "2026-11-05 00:20:18",
+      "last_item_at": "2026-11-05 00:20:18",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2262,7 +2267,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1138
         }
       ]
     },
@@ -2706,13 +2712,13 @@
       "name": "PubMed: antimicrobial resistance in animals",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-04 11:31:43",
-      "last_success_at": "2026-11-04 11:31:43",
-      "last_item_at": "2026-11-04 11:31:43",
+      "last_run_at": "2026-11-05 00:20:15",
+      "last_success_at": "2026-11-05 00:20:15",
+      "last_item_at": "2026-11-05 00:20:15",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 143,
+      "entries": 146,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2925,7 +2931,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2208
         }
       ]
     },
@@ -3868,13 +3875,13 @@
       "name": "PubMed: veterinary anesthesia and analgesia",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-04 11:31:43",
-      "last_success_at": "2026-11-04 11:31:43",
-      "last_item_at": "2026-11-04 11:31:43",
+      "last_run_at": "2026-11-05 00:20:15",
+      "last_success_at": "2026-11-05 00:20:15",
+      "last_item_at": "2026-11-05 00:20:15",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 162,
+      "entries": 167,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4087,7 +4094,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2208
         }
       ]
     },
@@ -4559,21 +4567,16 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-04 18:00:11",
-      "last_success_at": "2026-11-04 12:00:04",
-      "last_item_at": "2026-11-04 12:00:04",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20infectious%20diseases&retmax=12&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
-      "entries": 298,
+      "last_run_at": "2026-11-05 00:20:16",
+      "last_success_at": "2026-11-05 00:20:16",
+      "last_item_at": "2026-11-05 00:20:16",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "entries": 303,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-11-01T04:00:15.589Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-01T05:54:05.084Z",
           "s": "err",
@@ -4794,6 +4797,11 @@
           "t": "2026-11-05T00:00:21.728Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-11-05T00:20:20.401Z",
+          "s": "ok",
+          "ms": 2208
         }
       ]
     },
@@ -5031,13 +5039,13 @@
       "name": "PubMed: veterinary parasitology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-04 12:00:04",
-      "last_success_at": "2026-11-04 12:00:04",
-      "last_item_at": "2026-11-04 12:00:04",
+      "last_run_at": "2026-11-05 00:20:15",
+      "last_success_at": "2026-11-05 00:20:15",
+      "last_item_at": "2026-11-05 00:20:15",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 150,
+      "entries": 153,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5250,7 +5258,8 @@
         },
         {
           "t": "2026-11-05T00:00:21.728Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2208
         }
       ]
     },
