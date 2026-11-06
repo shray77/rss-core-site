@@ -1,15 +1,15 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-06T22:00:19.048Z",
+  "generated_at": "2026-11-06T22:21:15.245Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-06 18:00:04",
-      "last_success_at": "2026-11-06 18:00:04",
-      "last_item_at": "2026-11-06 18:00:04",
+      "last_run_at": "2026-11-06 22:21:14",
+      "last_success_at": "2026-11-06 22:21:14",
+      "last_item_at": "2026-11-06 22:21:14",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -226,7 +226,8 @@
         },
         {
           "t": "2026-11-06T22:00:19.489Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1300
         }
       ]
     },
@@ -691,9 +692,9 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-06 18:00:04",
-      "last_success_at": "2026-11-06 18:00:04",
-      "last_item_at": "2026-11-06 18:00:04",
+      "last_run_at": "2026-11-06 22:21:13",
+      "last_success_at": "2026-11-06 22:21:13",
+      "last_item_at": "2026-11-06 22:21:13",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -912,7 +913,8 @@
         },
         {
           "t": "2026-11-06T22:00:19.489Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 922
         }
       ]
     },
