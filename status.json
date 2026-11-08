@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-08T18:00:08.929Z",
+  "generated_at": "2026-11-08T18:29:00.037Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1823,9 +1823,9 @@
       "name": "Bing News (world): lumpy skin disease outbreaks",
       "enabled": 1,
       "interval_minutes": 360,
-      "last_run_at": "2026-11-08 12:00:25",
-      "last_success_at": "2026-11-08 12:00:25",
-      "last_item_at": "2026-11-08 12:00:25",
+      "last_run_at": "2026-11-08 18:28:59",
+      "last_success_at": "2026-11-08 18:28:59",
+      "last_item_at": "2026-11-08 18:28:59",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2036,7 +2036,8 @@
         },
         {
           "t": "2026-11-08T18:00:09.270Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 461
         }
       ]
     },
