@@ -1,15 +1,15 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-13T01:27:19.699Z",
+  "generated_at": "2026-11-13T02:00:08.062Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
       "name": "Bing News: вспышки АЧС",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-12 20:00:04",
-      "last_success_at": "2026-11-12 20:00:04",
-      "last_item_at": "2026-11-12 20:00:04",
+      "last_run_at": "2026-11-13 02:00:07",
+      "last_success_at": "2026-11-13 02:00:07",
+      "last_item_at": "2026-11-13 02:00:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -226,7 +226,8 @@
         },
         {
           "t": "2026-11-13T01:27:19.946Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 771
         }
       ]
     },
@@ -461,8 +462,8 @@
       "name": "Bing News: фальсифицированные препараты",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-12 20:00:04",
-      "last_success_at": "2026-11-12 20:00:04",
+      "last_run_at": "2026-11-13 02:00:06",
+      "last_success_at": "2026-11-13 02:00:06",
       "last_item_at": "2026-11-12 20:00:04",
       "last_status": "ok",
       "last_error": null,
@@ -680,7 +681,8 @@
         },
         {
           "t": "2026-11-13T01:27:19.946Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 441
         }
       ]
     },
@@ -689,9 +691,9 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-12 20:00:03",
-      "last_success_at": "2026-11-12 20:00:03",
-      "last_item_at": "2026-11-12 20:00:03",
+      "last_run_at": "2026-11-13 02:00:05",
+      "last_success_at": "2026-11-13 02:00:05",
+      "last_item_at": "2026-11-13 02:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -909,7 +911,8 @@
         },
         {
           "t": "2026-11-13T01:27:19.946Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 747
         }
       ]
     },
@@ -2268,9 +2271,9 @@
       "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-12 18:00:17",
-      "last_success_at": "2026-11-12 18:00:17",
-      "last_item_at": "2026-11-12 18:00:17",
+      "last_run_at": "2026-11-13 02:00:05",
+      "last_success_at": "2026-11-13 02:00:05",
+      "last_item_at": "2026-11-13 02:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2484,7 +2487,8 @@
         },
         {
           "t": "2026-11-13T01:27:19.946Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2637
         }
       ]
     },
