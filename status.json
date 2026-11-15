@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-15T08:00:13.042Z",
+  "generated_at": "2026-11-15T08:25:31.807Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1149,13 +1149,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-15 02:00:03",
-      "last_success_at": "2026-11-15 02:00:03",
-      "last_item_at": "2026-11-15 02:00:03",
+      "last_run_at": "2026-11-15 08:25:26",
+      "last_success_at": "2026-11-15 08:25:26",
+      "last_item_at": "2026-11-15 08:25:26",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 771,
+      "entries": 773,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1365,7 +1365,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 601
         }
       ]
     },
@@ -1374,9 +1375,9 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-15 02:00:06",
-      "last_success_at": "2026-11-15 02:00:06",
-      "last_item_at": "2026-11-15 02:00:06",
+      "last_run_at": "2026-11-15 08:25:30",
+      "last_success_at": "2026-11-15 08:25:30",
+      "last_item_at": "2026-11-15 08:25:30",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1591,7 +1592,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 634
         }
       ]
     },
@@ -1600,13 +1602,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-15 02:00:04",
-      "last_success_at": "2026-11-15 02:00:04",
-      "last_item_at": "2026-11-15 02:00:04",
+      "last_run_at": "2026-11-15 08:25:27",
+      "last_success_at": "2026-11-15 08:25:27",
+      "last_item_at": "2026-11-15 08:25:27",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 657,
+      "entries": 658,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1817,7 +1819,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 797
         }
       ]
     },
@@ -2048,9 +2051,9 @@
       "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-15 02:00:06",
-      "last_success_at": "2026-11-15 02:00:06",
-      "last_item_at": "2026-11-15 02:00:06",
+      "last_run_at": "2026-11-15 08:25:31",
+      "last_success_at": "2026-11-15 08:25:31",
+      "last_item_at": "2026-11-15 08:25:31",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2264,7 +2267,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 800
         }
       ]
     },
@@ -2273,13 +2277,13 @@
       "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-15 02:00:05",
-      "last_success_at": "2026-11-15 02:00:05",
-      "last_item_at": "2026-11-15 02:00:05",
+      "last_run_at": "2026-11-15 08:25:30",
+      "last_success_at": "2026-11-15 08:25:30",
+      "last_item_at": "2026-11-15 08:25:30",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 135,
+      "entries": 138,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2489,7 +2493,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2463
         }
       ]
     },
@@ -2707,13 +2712,13 @@
       "name": "PubMed: antimicrobial resistance in animals",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-14 20:00:12",
-      "last_success_at": "2026-11-14 20:00:12",
-      "last_item_at": "2026-11-14 20:00:12",
+      "last_run_at": "2026-11-15 08:25:25",
+      "last_success_at": "2026-11-15 08:25:25",
+      "last_item_at": "2026-11-15 08:25:25",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 208,
+      "entries": 212,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2919,7 +2924,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2718
         }
       ]
     },
@@ -5126,13 +5132,13 @@
       "name": "PubMed: veterinary parasitology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-14 20:00:12",
-      "last_success_at": "2026-11-14 20:00:12",
-      "last_item_at": "2026-11-14 20:00:12",
+      "last_run_at": "2026-11-15 08:25:26",
+      "last_success_at": "2026-11-15 08:25:26",
+      "last_item_at": "2026-11-15 08:25:26",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 204,
+      "entries": 206,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5344,7 +5350,8 @@
         },
         {
           "t": "2026-11-15T08:00:13.276Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 2718
         }
       ]
     },
