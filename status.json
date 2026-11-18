@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-18T02:00:05.036Z",
+  "generated_at": "2026-11-18T02:22:31.131Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -922,9 +922,9 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-17 22:00:04",
-      "last_success_at": "2026-11-17 22:00:04",
-      "last_item_at": "2026-11-17 22:00:04",
+      "last_run_at": "2026-11-18 02:22:30",
+      "last_success_at": "2026-11-18 02:22:30",
+      "last_item_at": "2026-11-18 02:22:30",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1138,7 +1138,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 580
         }
       ]
     },
@@ -2924,9 +2925,9 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:14",
-      "last_success_at": "2026-11-17 14:00:14",
-      "last_item_at": "2026-11-17 14:00:14",
+      "last_run_at": "2026-11-18 02:22:29",
+      "last_success_at": "2026-11-18 02:22:29",
+      "last_item_at": "2026-11-18 02:22:29",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -3148,7 +3149,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -3157,21 +3159,16 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:08",
-      "last_success_at": "2026-11-16 10:00:27",
-      "last_item_at": "2026-11-16 10:00:27",
-      "last_status": "error",
-      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 2,
+      "last_run_at": "2026-11-18 02:22:27",
+      "last_success_at": "2026-11-18 02:22:27",
+      "last_item_at": "2026-11-18 02:22:27",
+      "last_status": "ok",
+      "last_error": null,
+      "consecutive_failures": 0,
       "entries": 13,
       "stale": false,
-      "error_code": "rate_limit",
+      "error_code": null,
       "history": [
-        {
-          "t": "2026-11-14T03:07:46.061Z",
-          "s": "ok",
-          "ms": 561
-        },
         {
           "t": "2026-11-14T06:00:09.387Z",
           "s": "ok"
@@ -3389,6 +3386,11 @@
           "t": "2026-11-18T02:00:05.427Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-11-18T02:22:31.539Z",
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -3397,13 +3399,13 @@
       "name": "PubMed: equine medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:13",
-      "last_success_at": "2026-11-17 14:00:13",
-      "last_item_at": "2026-11-17 14:00:13",
+      "last_run_at": "2026-11-18 02:22:28",
+      "last_success_at": "2026-11-18 02:22:28",
+      "last_item_at": "2026-11-18 02:22:28",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 140,
+      "entries": 141,
       "stale": false,
       "error_code": null,
       "history": [
@@ -3616,7 +3618,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -3625,13 +3628,13 @@
       "name": "PubMed: feline medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:13",
-      "last_success_at": "2026-11-17 14:00:13",
-      "last_item_at": "2026-11-17 14:00:13",
+      "last_run_at": "2026-11-18 02:22:28",
+      "last_success_at": "2026-11-18 02:22:28",
+      "last_item_at": "2026-11-18 02:22:28",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 149,
+      "entries": 150,
       "stale": false,
       "error_code": null,
       "history": [
@@ -3856,7 +3859,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -3865,13 +3869,13 @@
       "name": "PubMed: veterinary anesthesia and analgesia",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:14",
-      "last_success_at": "2026-11-17 14:00:14",
-      "last_item_at": "2026-11-17 14:00:14",
+      "last_run_at": "2026-11-18 02:22:29",
+      "last_success_at": "2026-11-18 02:22:29",
+      "last_item_at": "2026-11-18 02:22:29",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 231,
+      "entries": 236,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4090,7 +4094,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -4099,9 +4104,9 @@
       "name": "PubMed: veterinary dermatology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:13",
-      "last_success_at": "2026-11-17 14:00:13",
-      "last_item_at": "2026-11-17 14:00:13",
+      "last_run_at": "2026-11-18 02:22:29",
+      "last_success_at": "2026-11-18 02:22:29",
+      "last_item_at": "2026-11-18 02:22:29",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -4324,7 +4329,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -4560,13 +4566,13 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-17 22:00:03",
-      "last_success_at": "2026-11-17 22:00:03",
-      "last_item_at": "2026-11-17 22:00:03",
+      "last_run_at": "2026-11-18 02:22:30",
+      "last_success_at": "2026-11-18 02:22:30",
+      "last_item_at": "2026-11-18 02:22:30",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 436,
+      "entries": 437,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4783,7 +4789,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -4792,9 +4799,9 @@
       "name": "PubMed: veterinary oncology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:13",
-      "last_success_at": "2026-11-17 14:00:13",
-      "last_item_at": "2026-11-17 14:00:13",
+      "last_run_at": "2026-11-18 02:22:28",
+      "last_success_at": "2026-11-18 02:22:28",
+      "last_item_at": "2026-11-18 02:22:28",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -5023,7 +5030,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     },
@@ -5265,13 +5273,13 @@
       "name": "PubMed: veterinary surgery",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-17 14:00:13",
-      "last_success_at": "2026-11-17 14:00:13",
-      "last_item_at": "2026-11-17 14:00:13",
+      "last_run_at": "2026-11-18 02:22:27",
+      "last_success_at": "2026-11-18 02:22:27",
+      "last_item_at": "2026-11-18 02:22:27",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 186,
+      "entries": 192,
       "stale": false,
       "error_code": null,
       "history": [
@@ -5490,7 +5498,8 @@
         },
         {
           "t": "2026-11-18T02:00:05.427Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 3304
         }
       ]
     }
