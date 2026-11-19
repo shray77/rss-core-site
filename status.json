@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-19T04:00:03.673Z",
+  "generated_at": "2026-11-19T06:00:43.248Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -17,10 +17,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -228,6 +224,10 @@
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok",
           "ms": 441
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -246,10 +246,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -452,6 +448,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -470,10 +470,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -681,6 +677,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -699,10 +699,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -910,6 +906,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -928,10 +928,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -1135,6 +1131,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -1153,10 +1153,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -1359,6 +1355,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -1377,10 +1377,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -1583,6 +1579,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -1601,10 +1601,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -1807,6 +1803,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -1825,10 +1825,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -2028,6 +2024,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -2046,10 +2046,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -2251,6 +2247,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -2269,10 +2269,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -2475,6 +2471,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -2493,10 +2493,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok"
@@ -2684,6 +2680,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -2702,10 +2702,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -2912,6 +2908,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -2920,21 +2920,16 @@
       "name": "PubMed: bovine mastitis",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:21",
+      "last_run_at": "2026-11-19 06:00:28",
       "last_success_at": "2026-11-18 16:00:21",
       "last_item_at": "2026-11-18 16:00:21",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=bovine%20mastitis&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 63,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "err",
@@ -3140,6 +3135,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -3148,21 +3148,16 @@
       "name": "PubMed: canine parvovirus",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:20",
+      "last_run_at": "2026-11-19 06:00:13",
       "last_success_at": "2026-11-18 16:00:20",
       "last_item_at": "2026-11-18 16:00:20",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=canine%20parvovirus&retmax=8&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 13,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T08:00:13.276Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T10:00:03.293Z",
           "s": "err",
@@ -3373,6 +3368,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -3381,21 +3381,16 @@
       "name": "PubMed: equine medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:21",
+      "last_run_at": "2026-11-19 06:00:41",
       "last_success_at": "2026-11-18 16:00:21",
       "last_item_at": "2026-11-18 16:00:21",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=43052006,43050302,43049601,43049541,43048118,43048052,43049821,43046929,43045360,43045345,43044161,43041627,43047224,43030177,43004670,43003375,42998873,42998826,43052000,43051883,43051876,43051696,43051695&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 145,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok",
-          "ms": 2766
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok"
@@ -3595,6 +3590,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -3603,21 +3603,16 @@
       "name": "PubMed: feline medicine",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:20",
+      "last_run_at": "2026-11-19 06:00:22",
       "last_success_at": "2026-11-18 16:00:20",
       "last_item_at": "2026-11-18 16:00:20",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=feline%20medicine&retmax=6&sort=date&datetype=edat&reldate=30&retmode=json",
+      "consecutive_failures": 1,
       "entries": 156,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "err",
@@ -3829,6 +3824,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -3837,21 +3837,16 @@
       "name": "PubMed: veterinary anesthesia and analgesia",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:21",
+      "last_run_at": "2026-11-19 06:00:42",
       "last_success_at": "2026-11-18 16:00:21",
       "last_item_at": "2026-11-18 16:00:21",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=43052006,43050302,43049601,43049541,43048118,43048052,43049821,43046929,43045360,43045345,43044161,43041627,43047224,43030177,43004670,43003375,42998873,42998826,43052000,43051883,43051876,43051696,43051695&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 241,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "err",
@@ -4057,6 +4052,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -4065,21 +4065,16 @@
       "name": "PubMed: veterinary dermatology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:21",
+      "last_run_at": "2026-11-19 06:00:41",
       "last_success_at": "2026-11-18 16:00:21",
       "last_item_at": "2026-11-18 16:00:21",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=43052006,43050302,43049601,43049541,43048118,43048052,43049821,43046929,43045360,43045345,43044161,43041627,43047224,43030177,43004670,43003375,42998873,42998826,43052000,43051883,43051876,43051696,43051695&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 46,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok",
-          "ms": 2766
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok"
@@ -4285,6 +4280,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -4303,11 +4303,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T08:00:13.276Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T10:00:03.293Z",
           "s": "err",
@@ -4519,6 +4514,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -4537,10 +4536,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "err",
@@ -4753,6 +4748,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -4761,21 +4760,16 @@
       "name": "PubMed: veterinary oncology",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:10",
+      "last_run_at": "2026-11-19 06:00:08",
       "last_success_at": "2026-11-18 02:22:28",
       "last_item_at": "2026-11-18 02:22:28",
       "last_status": "error",
       "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=veterinary%20oncology&retmax=6&sort=date&datetype=edat&reldate=30&retmode=json",
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "entries": 118,
       "stale": false,
       "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "err",
-          "e": "rate_limit"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "err",
@@ -4993,6 +4987,11 @@
           "t": "2026-11-19T04:00:04.217Z",
           "s": "err",
           "e": "rate_limit"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     },
@@ -5011,10 +5010,6 @@
       "stale": false,
       "error_code": null,
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok"
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok",
@@ -5221,6 +5216,10 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "ok"
         }
       ]
     },
@@ -5229,21 +5228,16 @@
       "name": "PubMed: veterinary surgery",
       "enabled": 1,
       "interval_minutes": 720,
-      "last_run_at": "2026-11-18 16:00:20",
+      "last_run_at": "2026-11-19 06:00:40",
       "last_success_at": "2026-11-18 16:00:20",
       "last_item_at": "2026-11-18 16:00:20",
-      "last_status": "ok",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_status": "error",
+      "last_error": "HTTP 429 for https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=43052006,43050302,43049601,43049541,43048118,43048052,43049821,43046929,43045360,43045345,43044161,43041627,43047224,43030177,43004670,43003375,42998873,42998826,43052000,43051883,43051876,43051696,43051695&retmode=xml",
+      "consecutive_failures": 1,
       "entries": 195,
       "stale": false,
-      "error_code": null,
+      "error_code": "rate_limit",
       "history": [
-        {
-          "t": "2026-11-15T06:00:38.253Z",
-          "s": "ok",
-          "ms": 2766
-        },
         {
           "t": "2026-11-15T08:00:13.276Z",
           "s": "ok"
@@ -5449,6 +5443,11 @@
         {
           "t": "2026-11-19T04:00:04.217Z",
           "s": "ok"
+        },
+        {
+          "t": "2026-11-19T06:00:43.873Z",
+          "s": "err",
+          "e": "rate_limit"
         }
       ]
     }
