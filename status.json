@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-23T03:04:39.742Z",
+  "generated_at": "2026-11-23T04:00:08.047Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -236,13 +236,13 @@
       "name": "Bing News: вспышки ящур / грипп птиц",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:05",
-      "last_success_at": "2026-11-22 22:00:05",
-      "last_item_at": "2026-11-22 22:00:05",
+      "last_run_at": "2026-11-23 04:00:04",
+      "last_success_at": "2026-11-23 04:00:04",
+      "last_item_at": "2026-11-23 04:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 829,
+      "entries": 830,
       "stale": false,
       "error_code": null,
       "history": [
@@ -452,7 +452,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 501
         }
       ]
     },
@@ -690,9 +691,9 @@
       "name": "Bing News: приостановка серий",
       "enabled": 1,
       "interval_minutes": 180,
-      "last_run_at": "2026-11-23 00:00:03",
-      "last_success_at": "2026-11-23 00:00:03",
-      "last_item_at": "2026-11-23 00:00:03",
+      "last_run_at": "2026-11-23 04:00:07",
+      "last_success_at": "2026-11-23 04:00:07",
+      "last_item_at": "2026-11-23 04:00:07",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -911,7 +912,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 460
         }
       ]
     },
@@ -920,9 +922,9 @@
       "name": "Bing News: недоброкачественные ветпрепараты",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:08",
-      "last_success_at": "2026-11-22 22:00:08",
-      "last_item_at": "2026-11-22 22:00:08",
+      "last_run_at": "2026-11-23 04:00:06",
+      "last_success_at": "2026-11-23 04:00:06",
+      "last_item_at": "2026-11-23 04:00:06",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1136,7 +1138,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 554
         }
       ]
     },
@@ -1145,13 +1148,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:06",
-      "last_success_at": "2026-11-22 22:00:06",
-      "last_item_at": "2026-11-22 22:00:06",
+      "last_run_at": "2026-11-23 04:00:05",
+      "last_success_at": "2026-11-23 04:00:05",
+      "last_item_at": "2026-11-23 04:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 864,
+      "entries": 865,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1361,7 +1364,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 481
         }
       ]
     },
@@ -1370,9 +1374,9 @@
       "name": "Bing News (world): african swine fever outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:06",
-      "last_success_at": "2026-11-22 22:00:06",
-      "last_item_at": "2026-11-22 22:00:06",
+      "last_run_at": "2026-11-23 04:00:05",
+      "last_success_at": "2026-11-23 04:00:05",
+      "last_item_at": "2026-11-23 04:00:05",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -1586,7 +1590,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 461
         }
       ]
     },
@@ -1595,13 +1600,13 @@
       "name": "Bing News (world): foot-and-mouth outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:05",
-      "last_success_at": "2026-11-22 22:00:05",
-      "last_item_at": "2026-11-22 22:00:05",
+      "last_run_at": "2026-11-23 04:00:04",
+      "last_success_at": "2026-11-23 04:00:04",
+      "last_item_at": "2026-11-23 04:00:04",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 680,
+      "entries": 681,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1811,7 +1816,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 579
         }
       ]
     },
@@ -2042,9 +2048,9 @@
       "name": "Europe PMC: AGRIS — животноводство и здоровье животных",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:07",
-      "last_success_at": "2026-11-22 22:00:07",
-      "last_item_at": "2026-11-22 22:00:07",
+      "last_run_at": "2026-11-23 04:00:06",
+      "last_success_at": "2026-11-23 04:00:06",
+      "last_item_at": "2026-11-23 04:00:06",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2258,7 +2264,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 899
         }
       ]
     },
@@ -2267,13 +2274,13 @@
       "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-22 22:00:04",
-      "last_success_at": "2026-11-22 22:00:04",
-      "last_item_at": "2026-11-22 22:00:04",
+      "last_run_at": "2026-11-23 04:00:03",
+      "last_success_at": "2026-11-23 04:00:03",
+      "last_item_at": "2026-11-23 04:00:03",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 177,
+      "entries": 178,
       "stale": false,
       "error_code": null,
       "history": [
@@ -2483,7 +2490,8 @@
         },
         {
           "t": "2026-11-23T03:04:39.949Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 1348
         }
       ]
     },
