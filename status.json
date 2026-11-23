@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-23T12:00:04.996Z",
+  "generated_at": "2026-11-23T12:22:19.393Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -4559,13 +4559,13 @@
       "name": "PubMed: veterinary infectious diseases",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-23 08:00:09",
-      "last_success_at": "2026-11-23 08:00:09",
-      "last_item_at": "2026-11-23 08:00:09",
+      "last_run_at": "2026-11-23 12:22:19",
+      "last_success_at": "2026-11-23 12:22:19",
+      "last_item_at": "2026-11-23 12:22:19",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 492,
+      "entries": 493,
       "stale": false,
       "error_code": null,
       "history": [
@@ -4790,7 +4790,8 @@
         },
         {
           "t": "2026-11-23T12:00:05.438Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 615
         }
       ]
     },
