@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-24T10:00:13.058Z",
+  "generated_at": "2026-11-24T10:23:24.126Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -2496,13 +2496,13 @@
       "name": "Actions relay (ФСВПС и др.)",
       "enabled": 1,
       "interval_minutes": 0,
-      "last_run_at": "2026-11-24 00:06:45",
+      "last_run_at": "2026-11-24 10:08:34",
       "last_success_at": "2026-10-08 12:16:52",
-      "last_item_at": "2026-11-24 00:06:45",
+      "last_item_at": "2026-11-24 10:08:34",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 658,
+      "entries": 664,
       "stale": false,
       "error_code": null,
       "history": [
