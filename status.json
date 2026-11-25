@@ -1,6 +1,6 @@
 {
   "service": "rss-core",
-  "generated_at": "2026-11-25T14:00:13.777Z",
+  "generated_at": "2026-11-25T14:17:55.438Z",
   "sources": [
     {
       "id": "bing-outbreak-achs",
@@ -1144,13 +1144,13 @@
       "name": "Bing News (world): avian influenza outbreaks",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-25 08:00:31",
-      "last_success_at": "2026-11-25 08:00:31",
-      "last_item_at": "2026-11-25 08:00:31",
+      "last_run_at": "2026-11-25 14:17:55",
+      "last_success_at": "2026-11-25 14:17:55",
+      "last_item_at": "2026-11-25 14:17:55",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
-      "entries": 889,
+      "entries": 895,
       "stale": false,
       "error_code": null,
       "history": [
@@ -1359,7 +1359,8 @@
         },
         {
           "t": "2026-11-25T14:00:14.089Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 475
         }
       ]
     },
@@ -2265,9 +2266,9 @@
       "name": "Europe PMC: ветеринарные препринты (bioRxiv/medRxiv/Research Square)",
       "enabled": 1,
       "interval_minutes": 240,
-      "last_run_at": "2026-11-25 08:00:30",
-      "last_success_at": "2026-11-25 08:00:30",
-      "last_item_at": "2026-11-25 08:00:30",
+      "last_run_at": "2026-11-25 14:17:54",
+      "last_success_at": "2026-11-25 14:17:54",
+      "last_item_at": "2026-11-25 14:17:54",
       "last_status": "ok",
       "last_error": null,
       "consecutive_failures": 0,
@@ -2482,7 +2483,8 @@
         },
         {
           "t": "2026-11-25T14:00:14.089Z",
-          "s": "ok"
+          "s": "ok",
+          "ms": 8330
         }
       ]
     },
